@@ -1,10 +1,26 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Hello",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/hello.json",
+          "src/main/java/net/mcreator/levelup/item/HelloItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.level_up.hello": "Hello"
+    }
   },
   "foldersRoot": {
     "name": "~",
