@@ -25,6 +25,19 @@
           "src/main/java/net/mcreator/levelup/item/TestItem.java"
         ]
       }
+    },
+    {
+      "name": "Rwasd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rwasd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/RwasdItem.java",
+          "src/main/resources/assets/level_up/models/item/rwasd.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -33,7 +46,8 @@
   "language_map": {
     "en_us": {
       "item.level_up.hello": "Hello",
-      "item.level_up.test": "Test"
+      "item.level_up.test": "Test",
+      "item.level_up.rwasd": "Rwasd"
     }
   },
   "foldersRoot": {
