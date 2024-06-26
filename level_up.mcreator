@@ -12,6 +12,19 @@
           "src/main/java/net/mcreator/levelup/item/HelloItem.java"
         ]
       }
+    },
+    {
+      "name": "Test",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/test.json",
+          "src/main/java/net/mcreator/levelup/item/TestItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -19,7 +32,8 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.level_up.hello": "Hello"
+      "item.level_up.hello": "Hello",
+      "item.level_up.test": "Test"
     }
   },
   "foldersRoot": {

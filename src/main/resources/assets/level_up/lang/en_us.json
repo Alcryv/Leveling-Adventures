@@ -1,3 +1,4 @@
 {
-  "item.level_up.hello": "Hello"
+  "item.level_up.hello": "Hello",
+  "item.level_up.test": "Test"
 }
