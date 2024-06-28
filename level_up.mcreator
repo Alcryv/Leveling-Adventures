@@ -69,6 +69,19 @@
       }
     },
     {
+      "name": "Smeltingantimatteroreblock",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltingantimatteroreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/smeltingantimatteroreblock.json"
+        ]
+      }
+    },
+    {
       "name": "Antimatteroreblock",
       "type": "block",
       "sortid": 6,
@@ -86,15 +99,16 @@
       }
     },
     {
-      "name": "Smeltingantimatteroreblock",
-      "type": "recipe",
-      "sortid": 7,
+      "name": "Testo",
+      "type": "item",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "smeltingantimatteroreblock",
+      "registry_name": "testo",
       "metadata": {
         "files": [
-          "src/main/resources/data/level_up/recipes/smeltingantimatteroreblock.json"
+          "src/main/java/net/mcreator/levelup/item/TestoItem.java",
+          "src/main/resources/assets/level_up/models/item/testo.json"
         ]
       }
     }
@@ -113,8 +127,7 @@
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
-      "item.level_up.antimatteringot": "Antimatteringot",
-      "block.level_up.antimatteroreblock": "Antimatteroreblock"
+      "item.level_up.antimatteringot": "Antimatteringot"
     }
   },
   "foldersRoot": {
