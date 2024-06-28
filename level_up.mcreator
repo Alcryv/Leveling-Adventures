@@ -1,54 +1,30 @@
 {
   "mod_elements": [
     {
-      "name": "Hello",
+      "name": "Antimattersword",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hello",
+      "registry_name": "antimattersword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/hello.json",
-          "src/main/java/net/mcreator/levelup/item/HelloItem.java"
+          "src/main/java/net/mcreator/levelup/item/AntimatterswordItem.java",
+          "src/main/resources/assets/level_up/models/item/antimattersword.json"
         ]
       }
     },
     {
-      "name": "Test",
+      "name": "Antimatterore",
       "type": "item",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test",
+      "registry_name": "antimatterore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/test.json",
-          "src/main/java/net/mcreator/levelup/item/TestItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Rwasd",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rwasd",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/RwasdItem.java",
-          "src/main/resources/assets/level_up/models/item/rwasd.json"
-        ]
-      }
-    },
-    {
-      "name": "Test2",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/Test2Item.java",
-          "src/main/resources/assets/level_up/models/item/test_2.json"
+          "src/main/resources/assets/level_up/models/item/antimatterore.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatteroreItem.java"
         ]
       }
     }
@@ -58,8 +34,8 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.level_up.hello": "Hello",
-      "item.level_up.test": "Test"
+      "item.level_up.antimattersword": "Antimatter sword",
+      "item.level_up.antimatterore": "Antimatterore"
     }
   },
   "foldersRoot": {

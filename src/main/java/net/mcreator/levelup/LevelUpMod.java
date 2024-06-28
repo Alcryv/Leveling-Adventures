@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.levelup.init.LevelUpModTabs;
 import net.mcreator.levelup.init.LevelUpModItems;
 
 import java.util.function.Supplier;
@@ -40,6 +41,8 @@ public class LevelUpMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		LevelUpModItems.REGISTRY.register(bus);
+
+		LevelUpModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
