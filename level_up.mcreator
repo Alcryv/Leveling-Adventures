@@ -67,6 +67,20 @@
           "src/main/resources/data/level_up/recipes/antimatterswor.json"
         ]
       }
+    },
+    {
+      "name": "Testo",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/TestoItem.java",
+          "src/main/resources/assets/level_up/models/item/testo.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -76,7 +90,8 @@
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
-      "item.level_up.antimatteringot": "Antimatteringot"
+      "item.level_up.antimatteringot": "Antimatteringot",
+      "item.level_up.testo": "Testo"
     }
   },
   "foldersRoot": {

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.levelup.item.TestoItem;
 import net.mcreator.levelup.item.AntimatterswordItem;
 import net.mcreator.levelup.item.AntimatteroreItem;
 import net.mcreator.levelup.item.AntimatteringotItem;
@@ -20,6 +21,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERSWORD = REGISTRY.register("antimattersword", () -> new AntimatterswordItem());
 	public static final RegistryObject<Item> ANTIMATTERORE = REGISTRY.register("antimatterore", () -> new AntimatteroreItem());
 	public static final RegistryObject<Item> ANTIMATTERINGOT = REGISTRY.register("antimatteringot", () -> new AntimatteringotItem());
+	public static final RegistryObject<Item> TESTO = REGISTRY.register("testo", () -> new TestoItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
