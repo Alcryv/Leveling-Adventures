@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "level_up:block/antimatteroreblock",
+    "up": "level_up:block/antimatteroreblock",
+    "north": "level_up:block/antimatteroreblock",
+    "east": "level_up:block/antimatteroreblock",
+    "south": "level_up:block/antimatteroreblock",
+    "west": "level_up:block/antimatteroreblock",
+    "particle": "level_up:block/antimatteroreblock"
+  },
+  "render_type": "solid"
+}
