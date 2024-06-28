@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "level_up:antimatterore"
+  },
+  "result": "level_up:antimatteringot"
+}
