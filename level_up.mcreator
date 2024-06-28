@@ -67,16 +67,54 @@
           "src/main/resources/data/level_up/recipes/antimatterswor.json"
         ]
       }
+    },
+    {
+      "name": "Antimatteroreblock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteroreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
+          "src/main/resources/assets/level_up/models/block/antimatteroreblock.json",
+          "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
+          "src/main/java/net/mcreator/levelup/block/AntimatteroreblockBlock.java",
+          "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Smeltingantimatteroreblock",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltingantimatteroreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/smeltingantimatteroreblock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Antimatteroreblock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Antimatteroreblock"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
-      "item.level_up.antimatteringot": "Antimatteringot"
+      "item.level_up.antimatteringot": "Antimatteringot",
+      "block.level_up.antimatteroreblock": "Antimatteroreblock"
     }
   },
   "foldersRoot": {
