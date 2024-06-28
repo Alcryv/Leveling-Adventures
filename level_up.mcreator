@@ -125,6 +125,33 @@
           "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java"
         ]
       }
+    },
+    {
+      "name": "Antimatterpickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimatterpickaxe.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatterpickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxeantimatter",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxeantimatter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/pickaxeantimatter.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -141,6 +168,7 @@
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
+      "item.level_up.antimatterpickaxe": "Antimatterpickaxe",
       "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.antimatteringot": "Antimatteringot",
       "block.level_up.antimatteroreblock": "Antimatteroreblock",
