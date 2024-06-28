@@ -23,6 +23,7 @@ public class LevelUpModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(LevelUpModItems.ANTIMATTERSWORD.get());
+			tabData.accept(LevelUpModItems.SWORDOFXP.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LevelUpModItems.ANTIMATTERORE.get());
 		}

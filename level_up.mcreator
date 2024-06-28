@@ -81,6 +81,20 @@
           "src/main/resources/assets/level_up/models/item/testo.json"
         ]
       }
+    },
+    {
+      "name": "Swordofxp",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofxp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/swordofxp.json",
+          "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -90,6 +104,7 @@
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
+      "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.antimatteringot": "Antimatteringot",
       "item.level_up.testo": "Testo"
     }
