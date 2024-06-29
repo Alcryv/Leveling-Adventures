@@ -12,12 +12,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.levelup.item.TestoItem;
 import net.mcreator.levelup.item.SwordofxpItem;
 import net.mcreator.levelup.item.AntimatterswordItem;
 import net.mcreator.levelup.item.AntimatterpickaxeItem;
 import net.mcreator.levelup.item.AntimatteroreItem;
 import net.mcreator.levelup.item.AntimatteringotItem;
+import net.mcreator.levelup.item.AntimatteraxeItem;
 import net.mcreator.levelup.LevelUpMod;
 
 public class LevelUpModItems {
@@ -26,9 +26,9 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERORE = REGISTRY.register("antimatterore", () -> new AntimatteroreItem());
 	public static final RegistryObject<Item> ANTIMATTERINGOT = REGISTRY.register("antimatteringot", () -> new AntimatteringotItem());
 	public static final RegistryObject<Item> ANTIMATTEROREBLOCK = block(LevelUpModBlocks.ANTIMATTEROREBLOCK);
-	public static final RegistryObject<Item> TESTO = REGISTRY.register("testo", () -> new TestoItem());
 	public static final RegistryObject<Item> SWORDOFXP = REGISTRY.register("swordofxp", () -> new SwordofxpItem());
 	public static final RegistryObject<Item> ANTIMATTERPICKAXE = REGISTRY.register("antimatterpickaxe", () -> new AntimatterpickaxeItem());
+	public static final RegistryObject<Item> ANTIMATTERAXE = REGISTRY.register("antimatteraxe", () -> new AntimatteraxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -90,25 +90,14 @@
       "registry_name": "antimatteroreblock",
       "metadata": {
         "files": [
+          "src/main/resources/data/level_up/forge/biome_modifier/antimatteroreblock_biome_modifier.json",
           "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
           "src/main/resources/assets/level_up/models/block/antimatteroreblock.json",
           "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
           "src/main/java/net/mcreator/levelup/block/AntimatteroreblockBlock.java",
+          "src/main/resources/data/level_up/worldgen/configured_feature/antimatteroreblock.json",
+          "src/main/resources/data/level_up/worldgen/placed_feature/antimatteroreblock.json",
           "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json"
-        ]
-      }
-    },
-    {
-      "name": "Testo",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testo",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/TestoItem.java",
-          "src/main/resources/assets/level_up/models/item/testo.json"
         ]
       }
     },
@@ -152,27 +141,72 @@
           "src/main/resources/data/level_up/recipes/pickaxeantimatter.json"
         ]
       }
+    },
+    {
+      "name": "AntimatteraxeItemInHandTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteraxe_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/AntimatteraxeItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antimatteraxe",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteraxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AntimatteraxeItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatteraxe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:mineable/pickaxe": [
+    "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:Antimatteroreblock"
     ],
-    "BLOCKS:minecraft:needs_stone_tool": [
+    "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Antimatteroreblock"
     ]
   },
   "language_map": {
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
-      "item.level_up.antimatterore": "Antimatterore",
-      "item.level_up.antimatterpickaxe": "Antimatterpickaxe",
+      "item.level_up.antimatterore": "Antimatter ore",
+      "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
       "item.level_up.swordofxp": "Swordofxp",
-      "item.level_up.antimatteringot": "Antimatteringot",
-      "block.level_up.antimatteroreblock": "Antimatteroreblock",
-      "item.level_up.testo": "Testo"
+      "item.level_up.antimatteringot": "Antimatter ingot",
+      "block.level_up.antimatteroreblock": "Antimatter ore block",
+      "item.level_up.antimatteraxe": "Antimatter axe"
     }
   },
   "foldersRoot": {

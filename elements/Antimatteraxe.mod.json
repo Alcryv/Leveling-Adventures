@@ -3,29 +3,29 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "a",
+    "texture": "antimatteraxe",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Testo",
+    "name": "Antimatter axe",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "TOOLS"
     },
-    "stackSize": 64,
-    "enchantability": 0,
+    "stackSize": 1,
+    "enchantability": 50,
     "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 0,
+    "toolType": 10.0,
+    "damageCount": 210,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 13.0,
     "specialInformation": {
       "fixedValue": []
     },
@@ -35,6 +35,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onItemInUseTick": {
+      "name": "AntimatteraxeItemInHandTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

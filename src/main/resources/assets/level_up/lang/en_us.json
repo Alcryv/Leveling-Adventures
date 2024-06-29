@@ -1,9 +1,9 @@
 {
   "item.level_up.antimattersword": "Antimatter sword",
-  "item.level_up.antimatterore": "Antimatterore",
-  "item.level_up.antimatterpickaxe": "Antimatterpickaxe",
+  "item.level_up.antimatterore": "Antimatter ore",
+  "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
   "item.level_up.swordofxp": "Swordofxp",
-  "item.level_up.antimatteringot": "Antimatteringot",
-  "block.level_up.antimatteroreblock": "Antimatteroreblock",
-  "item.level_up.testo": "Testo"
+  "item.level_up.antimatteringot": "Antimatter ingot",
+  "block.level_up.antimatteroreblock": "Antimatter ore block",
+  "item.level_up.antimatteraxe": "Antimatter axe"
 }

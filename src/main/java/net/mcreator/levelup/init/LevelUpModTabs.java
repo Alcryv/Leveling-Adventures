@@ -30,6 +30,7 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModBlocks.ANTIMATTEROREBLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LevelUpModItems.ANTIMATTERPICKAXE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERAXE.get());
 		}
 	}
 }
