@@ -5,7 +5,7 @@
     "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "antimatterpickaxe",
+    "texture": "antimattershovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Antimatter shovel",
@@ -13,7 +13,7 @@
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:LevelUp"
     },
     "harvestLevel": 30,
     "efficiency": 20.0,

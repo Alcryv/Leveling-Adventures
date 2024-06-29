@@ -10,7 +10,7 @@
     "name": "Antimatter ore",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:LevelUp"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -10,7 +10,7 @@
     "name": "Swordofxp",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:LevelUp"
     },
     "stackSize": 1,
     "enchantability": 0,

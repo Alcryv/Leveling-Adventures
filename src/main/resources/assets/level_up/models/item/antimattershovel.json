@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "level_up:item/antimatterpickaxe"
+    "layer0": "level_up:item/antimattershovel"
   }
 }
