@@ -1,10 +1,28 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/model/TestItemModel.java",
+          "src/main/resources/assets/level_up/models/item/test.json",
+          "src/main/java/net/mcreator/levelup/item/renderer/TestItemRenderer.java",
+          "src/main/java/net/mcreator/levelup/item/TestItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.level_up.test": "Test"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -21,8 +39,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.levelup"
   },
   "mcreatorVersion": 202400118518
