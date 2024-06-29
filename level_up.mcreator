@@ -3,7 +3,8 @@
     {
       "name": "Test",
       "type": "item",
-      "compiles": true,
+      "sortid": 26,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "test",
       "metadata": {
@@ -103,7 +104,7 @@
       "name": "Antimatterhelmet",
       "type": "armor",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatterhelmet",
       "metadata": {
@@ -133,7 +134,7 @@
       "name": "Antimattershovel",
       "type": "tool",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimattershovel",
       "metadata": {
@@ -147,7 +148,7 @@
       "name": "Antimatteroreblock",
       "type": "block",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatteroreblock",
       "metadata": {
@@ -255,7 +256,7 @@
       "name": "Antimatterore",
       "type": "item",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatterore",
       "metadata": {
@@ -308,7 +309,7 @@
       "name": "Antimatterpickaxe",
       "type": "tool",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatterpickaxe",
       "metadata": {
@@ -322,7 +323,7 @@
       "name": "Littlepatootie",
       "type": "animatedentity",
       "sortid": 25,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "littlepatootie",
       "metadata": {
@@ -339,7 +340,7 @@
       "name": "Antimatteringot",
       "type": "item",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatteringot",
       "metadata": {
@@ -353,7 +354,7 @@
       "name": "Antimatteraxe",
       "type": "item",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatteraxe",
       "metadata": {
@@ -393,7 +394,7 @@
       "name": "Antimattersword",
       "type": "item",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimattersword",
       "metadata": {
