@@ -110,8 +110,8 @@
       "registry_name": "swordofxp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/swordofxp.json",
-          "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java"
+          "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java",
+          "src/main/resources/assets/level_up/models/item/swordofxp.json"
         ]
       }
     },
@@ -401,6 +401,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "Littlepatootie",
+      "type": "animatedentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littlepatootie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/littlepatootie_spawn_egg.json",
+          "src/main/java/net/mcreator/levelup/entity/LittlepatootieEntity.java",
+          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json",
+          "src/main/java/net/mcreator/levelup/entity/model/LittlepatootieModel.java",
+          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -420,7 +437,9 @@
       "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
       "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
+      "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
       "advancements.antimatteroreadvancement.title": "First of many",
+      "entity.level_up.littlepatootie": "Littlepatootie",
       "block.level_up.antimatteroreblock": "Antimatter ore block",
       "item.level_up.antimatteraxe": "Antimatter axe",
       "item.level_up.antimattersword": "Antimatter sword",
@@ -446,8 +465,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.levelup"
   },
   "mcreatorVersion": 202400118518

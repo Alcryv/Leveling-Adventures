@@ -7,6 +7,7 @@ package net.mcreator.levelup.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -36,6 +37,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERHELMET_CHESTPLATE = REGISTRY.register("antimatterhelmet_chestplate", () -> new AntimatterhelmetItem.Chestplate());
 	public static final RegistryObject<Item> ANTIMATTERHELMET_LEGGINGS = REGISTRY.register("antimatterhelmet_leggings", () -> new AntimatterhelmetItem.Leggings());
 	public static final RegistryObject<Item> ANTIMATTERHELMET_BOOTS = REGISTRY.register("antimatterhelmet_boots", () -> new AntimatterhelmetItem.Boots());
+	public static final RegistryObject<Item> LITTLEPATOOTIE_SPAWN_EGG = REGISTRY.register("littlepatootie_spawn_egg", () -> new ForgeSpawnEggItem(LevelUpModEntities.LITTLEPATOOTIE, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
