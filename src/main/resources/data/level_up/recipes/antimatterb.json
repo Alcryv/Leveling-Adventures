@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "level_up:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "level_up:antimatterhelmet_boots",
+    "count": 1
+  }
+}

@@ -21,8 +21,24 @@ public class LevelUpModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(LevelUpModItems.ANTIMATTERSWORD.get());
+			tabData.accept(LevelUpModItems.SWORDOFXP.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_HELMET.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_CHESTPLATE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_LEGGINGS.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(LevelUpModItems.LITTLEPATOOTIE_SPAWN_EGG.get());
 			tabData.accept(LevelUpModItems.TEST.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(LevelUpModItems.ANTIMATTERORE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERINGOT.get());
+			tabData.accept(LevelUpModBlocks.ANTIMATTEROREBLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(LevelUpModItems.ANTIMATTERPICKAXE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERAXE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERSHOVEL.get());
 		}
 	}
 }

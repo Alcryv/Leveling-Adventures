@@ -1,11 +1,5 @@
 package net.mcreator.levelup.item.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.levelup.item.TestItem;
-
 public class TestItemModel extends GeoModel<TestItem> {
 	@Override
 	public ResourceLocation getAnimationResource(TestItem animatable) {

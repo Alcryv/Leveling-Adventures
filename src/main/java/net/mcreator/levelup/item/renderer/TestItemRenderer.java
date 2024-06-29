@@ -1,23 +1,5 @@
 package net.mcreator.levelup.item.renderer;
 
-import software.bernie.geckolib.renderer.GeoItemRenderer;
-import software.bernie.geckolib.cache.object.BakedGeoModel;
-
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ItemDisplayContext;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-
-import net.mcreator.levelup.item.model.TestItemModel;
-import net.mcreator.levelup.item.TestItem;
-
-import java.util.Set;
-import java.util.HashSet;
-
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class TestItemRenderer extends GeoItemRenderer<TestItem> {
 	public TestItemRenderer() {
 		super(new TestItemModel());
@@ -61,4 +43,5 @@ public class TestItemRenderer extends GeoItemRenderer<TestItem> {
 	public ResourceLocation getTextureLocation(TestItem instance) {
 		return super.getTextureLocation(instance);
 	}
+
 }

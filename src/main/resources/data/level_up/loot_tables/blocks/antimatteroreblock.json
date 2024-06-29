@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "level_up:blocks/antimatteroreblock",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "level_up:deleted_mod_element"
+        }
+      ]
+    }
+  ]
+}

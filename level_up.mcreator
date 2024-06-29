@@ -2,7 +2,7 @@
   "mod_elements": [
     {
       "name": "Test",
-      "type": "animateditem",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -14,11 +14,437 @@
           "src/main/java/net/mcreator/levelup/item/TestItem.java"
         ]
       }
+    },
+    {
+      "name": "AntimatterhelmetChestplateTickEvent",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterhelmet_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swordofxp",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofxp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/swordofxp.json",
+          "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Antimatteroreadvancement",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteroreadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/advancements/antimatteroreadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterswor",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterswor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterswor.json"
+        ]
+      }
+    },
+    {
+      "name": "Smeltingantimatteroreblock",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltingantimatteroreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/smeltingantimatteroreblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterhelmet",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatterhelmetItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_helmet.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_chestplate.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxeantimatter",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxeantimatter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/pickaxeantimatter.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimattershovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimattershovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimattershovel.json",
+          "src/main/java/net/mcreator/levelup/item/AntimattershovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Antimatteroreblock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteroreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json",
+          "src/main/java/net/mcreator/levelup/block/AntimatteroreblockBlock.java",
+          "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
+          "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
+          "src/main/resources/data/level_up/worldgen/placed_feature/antimatteroreblock.json",
+          "src/main/resources/data/level_up/worldgen/configured_feature/antimatteroreblock.json",
+          "src/main/resources/data/level_up/forge/biome_modifier/antimatteroreblock_biome_modifier.json",
+          "src/main/resources/assets/level_up/models/block/antimatteroreblock.json"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterhelmetLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterhelmet_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antimatterb",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterb.json"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterhelmetBootsTickEvent",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterhelmet_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antimatterc",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterc.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterore",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AntimatteroreItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterore.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimattering",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimattering",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimattering.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterh",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterh.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterl",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterl.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterpickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AntimatterpickaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Littlepatootie",
+      "type": "animatedentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littlepatootie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/littlepatootie_spawn_egg.json",
+          "src/main/java/net/mcreator/levelup/entity/LittlepatootieEntity.java",
+          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java",
+          "src/main/java/net/mcreator/levelup/entity/model/LittlepatootieModel.java",
+          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatteringot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteringot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimatteringot.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatteringotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Antimatteraxe",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteraxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimatteraxe.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatteraxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aar",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/aar.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatters",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatters.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimattersword",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimattersword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AntimatterswordItem.java",
+          "src/main/resources/assets/level_up/models/item/antimattersword.json"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterhelmetHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterhelmet_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Antimatteroreblock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Antimatteroreblock"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.level_up.test": "Test"
