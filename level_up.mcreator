@@ -143,37 +143,6 @@
       }
     },
     {
-      "name": "AntimatteraxeItemInHandTick",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatteraxe_item_in_hand_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/procedures/AntimatteraxeItemInHandTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Antimatteraxe",
       "type": "item",
       "sortid": 11,
@@ -184,6 +153,32 @@
         "files": [
           "src/main/java/net/mcreator/levelup/item/AntimatteraxeItem.java",
           "src/main/resources/assets/level_up/models/item/antimatteraxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatteroreadvancement",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteroreadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/advancements/antimatteroreadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Aar",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/aar.json"
         ]
       }
     }
@@ -204,7 +199,9 @@
       "item.level_up.antimatterore": "Antimatter ore",
       "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
       "item.level_up.swordofxp": "Swordofxp",
+      "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
       "item.level_up.antimatteringot": "Antimatter ingot",
+      "advancements.antimatteroreadvancement.title": "First of many",
       "block.level_up.antimatteroreblock": "Antimatter ore block",
       "item.level_up.antimatteraxe": "Antimatter axe"
     }

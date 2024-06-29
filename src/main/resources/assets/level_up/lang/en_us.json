@@ -3,7 +3,9 @@
   "item.level_up.antimatterore": "Antimatter ore",
   "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
   "item.level_up.swordofxp": "Swordofxp",
+  "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
   "item.level_up.antimatteringot": "Antimatter ingot",
+  "advancements.antimatteroreadvancement.title": "First of many",
   "block.level_up.antimatteroreblock": "Antimatter ore block",
   "item.level_up.antimatteraxe": "Antimatter axe"
 }

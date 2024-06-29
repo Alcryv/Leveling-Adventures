@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "antimatteraxe",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "customProperties": {},
     "states": [],
     "name": "Antimatter axe",
@@ -15,8 +15,8 @@
     "stackSize": 1,
     "enchantability": 50,
     "useDuration": 0,
-    "toolType": 10.0,
-    "damageCount": 210,
+    "toolType": 15.0,
+    "damageCount": 267,
     "recipeRemainder": {
       "value": ""
     },
@@ -35,9 +35,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInUseTick": {
-      "name": "AntimatteraxeItemInHandTick"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
