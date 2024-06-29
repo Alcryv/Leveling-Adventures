@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "level_up:deleted_mod_element"
+      "item": "level_up:antimatteringot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "level_up:deleted_mod_element",
+    "item": "level_up:antimattersword",
     "count": 1
   }
 }

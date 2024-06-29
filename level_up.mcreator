@@ -4,7 +4,7 @@
       "name": "AntimatterhelmetChestplateTickEvent",
       "type": "procedure",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet_chestplate_tick_event",
       "metadata": {
@@ -152,7 +152,7 @@
       "name": "AntimatterhelmetLeggingsTickEvent",
       "type": "procedure",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet_leggings_tick_event",
       "metadata": {
@@ -196,7 +196,7 @@
       "name": "AntimatterhelmetBootsTickEvent",
       "type": "procedure",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet_boots_tick_event",
       "metadata": {
@@ -307,7 +307,7 @@
       "name": "Littlepatootie",
       "type": "animatedentity",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "littlepatootie",
       "metadata": {
@@ -392,7 +392,7 @@
       "name": "AntimatterhelmetHelmetTickEvent",
       "type": "procedure",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet_helmet_tick_event",
       "metadata": {
@@ -447,9 +447,11 @@
       "item.level_up.antimattershovel": "Antimatter shovel",
       "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
       "item.level_up.swordofxp": "Swordofxp",
+      "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
       "item_group.level_up.level_up": "Level Up!",
       "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
       "entity.level_up.littlepatootie": "Littlepatootie",
+      "advancements.antimatteroreadvancement.title": "First of many",
       "block.level_up.antimatteroreblock": "Antimatter ore block",
       "item.level_up.antimatteraxe": "Antimatter axe",
       "item.level_up.antimattersword": "Antimatter sword",

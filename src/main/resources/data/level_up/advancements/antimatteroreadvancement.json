@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "level_up:deleted_mod_element"
+      "item": "level_up:antimatterore"
     },
     "title": {
       "translate": "advancements.antimatteroreadvancement.title"
@@ -22,7 +22,7 @@
         "items": [
           {
             "items": [
-              "level_up:deleted_mod_element"
+              "level_up:antimatterore"
             ],
             "count": {
               "min": 1,
