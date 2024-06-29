@@ -30,7 +30,6 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LevelUpModItems.LITTLEPATOOTIE_SPAWN_EGG.get());
-			tabData.accept(LevelUpModItems.TEST.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LevelUpModItems.ANTIMATTERORE.get());
 			tabData.accept(LevelUpModItems.ANTIMATTERINGOT.get());

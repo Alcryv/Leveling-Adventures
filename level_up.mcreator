@@ -1,22 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "item",
-      "sortid": 26,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/model/TestItemModel.java",
-          "src/main/resources/assets/level_up/models/item/test.json",
-          "src/main/java/net/mcreator/levelup/item/renderer/TestItemRenderer.java",
-          "src/main/java/net/mcreator/levelup/item/TestItem.java"
-        ]
-      }
-    },
-    {
       "name": "AntimatterhelmetChestplateTickEvent",
       "type": "procedure",
       "sortid": 22,
@@ -434,6 +418,17 @@
           }
         ]
       }
+    },
+    {
+      "name": "LevelUp",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_up",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -448,7 +443,7 @@
   },
   "language_map": {
     "en_us": {
-      "item.level_up.test": "Test"
+      "item_group.level_up.level_up": "Level Up!"
     }
   },
   "foldersRoot": {

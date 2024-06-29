@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.levelup.item.TestItem;
 import net.mcreator.levelup.item.SwordofxpItem;
 import net.mcreator.levelup.item.AntimatterswordItem;
 import net.mcreator.levelup.item.AntimattershovelItem;
@@ -26,7 +25,6 @@ import net.mcreator.levelup.LevelUpMod;
 
 public class LevelUpModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LevelUpMod.MODID);
-	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 	public static final RegistryObject<Item> SWORDOFXP = REGISTRY.register("swordofxp", () -> new SwordofxpItem());
 	public static final RegistryObject<Item> ANTIMATTERHELMET_HELMET = REGISTRY.register("antimatterhelmet_helmet", () -> new AntimatterhelmetItem.Helmet());
 	public static final RegistryObject<Item> ANTIMATTERHELMET_CHESTPLATE = REGISTRY.register("antimatterhelmet_chestplate", () -> new AntimatterhelmetItem.Chestplate());
