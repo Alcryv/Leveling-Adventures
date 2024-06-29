@@ -1,6 +1,20 @@
 
 package net.mcreator.levelup.client.renderer;
 
+import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib.cache.object.BakedGeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.levelup.entity.model.LittlepatootieModel;
+import net.mcreator.levelup.entity.LittlepatootieEntity;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
 public class LittlepatootieRenderer extends GeoEntityRenderer<LittlepatootieEntity> {
 	public LittlepatootieRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new LittlepatootieModel());
@@ -20,5 +34,4 @@ public class LittlepatootieRenderer extends GeoEntityRenderer<LittlepatootieEnti
 		this.scaleWidth = scale;
 		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
 	}
-
 }
