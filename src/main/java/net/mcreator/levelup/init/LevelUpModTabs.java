@@ -24,6 +24,10 @@ public class LevelUpModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(LevelUpModItems.ANTIMATTERSWORD.get());
 			tabData.accept(LevelUpModItems.SWORDOFXP.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_HELMET.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_CHESTPLATE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_LEGGINGS.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERHELMET_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LevelUpModItems.ANTIMATTERORE.get());
 			tabData.accept(LevelUpModItems.ANTIMATTERINGOT.get());

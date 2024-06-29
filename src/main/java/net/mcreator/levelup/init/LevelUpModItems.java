@@ -18,6 +18,7 @@ import net.mcreator.levelup.item.AntimattershovelItem;
 import net.mcreator.levelup.item.AntimatterpickaxeItem;
 import net.mcreator.levelup.item.AntimatteroreItem;
 import net.mcreator.levelup.item.AntimatteringotItem;
+import net.mcreator.levelup.item.AntimatterhelmetItem;
 import net.mcreator.levelup.item.AntimatteraxeItem;
 import net.mcreator.levelup.LevelUpMod;
 
@@ -31,6 +32,10 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERPICKAXE = REGISTRY.register("antimatterpickaxe", () -> new AntimatterpickaxeItem());
 	public static final RegistryObject<Item> ANTIMATTERAXE = REGISTRY.register("antimatteraxe", () -> new AntimatteraxeItem());
 	public static final RegistryObject<Item> ANTIMATTERSHOVEL = REGISTRY.register("antimattershovel", () -> new AntimattershovelItem());
+	public static final RegistryObject<Item> ANTIMATTERHELMET_HELMET = REGISTRY.register("antimatterhelmet_helmet", () -> new AntimatterhelmetItem.Helmet());
+	public static final RegistryObject<Item> ANTIMATTERHELMET_CHESTPLATE = REGISTRY.register("antimatterhelmet_chestplate", () -> new AntimatterhelmetItem.Chestplate());
+	public static final RegistryObject<Item> ANTIMATTERHELMET_LEGGINGS = REGISTRY.register("antimatterhelmet_leggings", () -> new AntimatterhelmetItem.Leggings());
+	public static final RegistryObject<Item> ANTIMATTERHELMET_BOOTS = REGISTRY.register("antimatterhelmet_boots", () -> new AntimatterhelmetItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

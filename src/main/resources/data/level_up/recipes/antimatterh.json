@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "level_up:antimatteringot"
+    }
+  },
+  "result": {
+    "item": "level_up:antimatterhelmet_helmet",
+    "count": 1
+  }
+}
