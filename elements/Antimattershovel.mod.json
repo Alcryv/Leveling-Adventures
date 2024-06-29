@@ -5,7 +5,7 @@
     "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "antimattershovel",
+    "texture": "antimatterpickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Antimatter shovel",

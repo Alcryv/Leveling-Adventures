@@ -1,3 +1,9 @@
 {
-  "item_group.level_up.level_up": "Level Up!"
+  "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
+  "item.level_up.antimattershovel": "Antimatter shovel",
+  "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
+  "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
+  "item_group.level_up.level_up": "Level Up!",
+  "block.level_up.antimatteroreblock": "Antimatter ore block",
+  "item.level_up.antimatterhelmet_boots": "Antimatter  Boots"
 }

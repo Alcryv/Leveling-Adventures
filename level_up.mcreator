@@ -35,7 +35,7 @@
       "name": "Swordofxp",
       "type": "item",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "swordofxp",
       "metadata": {
@@ -88,7 +88,7 @@
       "name": "Antimatterhelmet",
       "type": "armor",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet",
       "metadata": {
@@ -118,7 +118,7 @@
       "name": "Antimattershovel",
       "type": "tool",
       "sortid": 14,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimattershovel",
       "metadata": {
@@ -132,7 +132,7 @@
       "name": "Antimatteroreblock",
       "type": "block",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatteroreblock",
       "metadata": {
@@ -443,7 +443,13 @@
   },
   "language_map": {
     "en_us": {
-      "item_group.level_up.level_up": "Level Up!"
+      "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
+      "item.level_up.antimattershovel": "Antimatter shovel",
+      "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
+      "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
+      "item_group.level_up.level_up": "Level Up!",
+      "block.level_up.antimatteroreblock": "Antimatter ore block",
+      "item.level_up.antimatterhelmet_boots": "Antimatter  Boots"
     }
   },
   "foldersRoot": {
