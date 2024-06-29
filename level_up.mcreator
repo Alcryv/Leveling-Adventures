@@ -181,6 +181,20 @@
           "src/main/resources/data/level_up/recipes/aar.json"
         ]
       }
+    },
+    {
+      "name": "Antimattershovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimattershovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimattershovel.json",
+          "src/main/java/net/mcreator/levelup/item/AntimattershovelItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -198,6 +212,7 @@
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatter ore",
       "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
+      "item.level_up.antimattershovel": "Antimattershovel",
       "item.level_up.swordofxp": "Swordofxp",
       "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
       "item.level_up.antimatteringot": "Antimatter ingot",

@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.levelup.item.SwordofxpItem;
 import net.mcreator.levelup.item.AntimatterswordItem;
+import net.mcreator.levelup.item.AntimattershovelItem;
 import net.mcreator.levelup.item.AntimatterpickaxeItem;
 import net.mcreator.levelup.item.AntimatteroreItem;
 import net.mcreator.levelup.item.AntimatteringotItem;
@@ -29,6 +30,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> SWORDOFXP = REGISTRY.register("swordofxp", () -> new SwordofxpItem());
 	public static final RegistryObject<Item> ANTIMATTERPICKAXE = REGISTRY.register("antimatterpickaxe", () -> new AntimatterpickaxeItem());
 	public static final RegistryObject<Item> ANTIMATTERAXE = REGISTRY.register("antimatteraxe", () -> new AntimatteraxeItem());
+	public static final RegistryObject<Item> ANTIMATTERSHOVEL = REGISTRY.register("antimattershovel", () -> new AntimattershovelItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
