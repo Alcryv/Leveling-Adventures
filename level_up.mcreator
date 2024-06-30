@@ -23,8 +23,8 @@
       "registry_name": "antimatterore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/antimatterore.json",
-          "src/main/java/net/mcreator/levelup/item/AntimatteroreItem.java"
+          "src/main/java/net/mcreator/levelup/item/AntimatteroreItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterore.json"
         ]
       }
     },
@@ -90,14 +90,14 @@
       "registry_name": "antimatteroreblock",
       "metadata": {
         "files": [
-          "src/main/resources/data/level_up/forge/biome_modifier/antimatteroreblock_biome_modifier.json",
-          "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
-          "src/main/resources/assets/level_up/models/block/antimatteroreblock.json",
-          "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
+          "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json",
           "src/main/java/net/mcreator/levelup/block/AntimatteroreblockBlock.java",
-          "src/main/resources/data/level_up/worldgen/configured_feature/antimatteroreblock.json",
+          "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
+          "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
           "src/main/resources/data/level_up/worldgen/placed_feature/antimatteroreblock.json",
-          "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json"
+          "src/main/resources/data/level_up/worldgen/configured_feature/antimatteroreblock.json",
+          "src/main/resources/data/level_up/forge/biome_modifier/antimatteroreblock_biome_modifier.json",
+          "src/main/resources/assets/level_up/models/block/antimatteroreblock.json"
         ]
       }
     },
@@ -110,8 +110,8 @@
       "registry_name": "swordofxp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java",
-          "src/main/resources/assets/level_up/models/item/swordofxp.json"
+          "src/main/resources/assets/level_up/models/item/swordofxp.json",
+          "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java"
         ]
       }
     },
@@ -124,8 +124,8 @@
       "registry_name": "antimatterpickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/antimatterpickaxe.json",
-          "src/main/java/net/mcreator/levelup/item/AntimatterpickaxeItem.java"
+          "src/main/java/net/mcreator/levelup/item/AntimatterpickaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterpickaxe.json"
         ]
       }
     },
@@ -151,8 +151,8 @@
       "registry_name": "antimatteraxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/AntimatteraxeItem.java",
-          "src/main/resources/assets/level_up/models/item/antimatteraxe.json"
+          "src/main/resources/assets/level_up/models/item/antimatteraxe.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatteraxeItem.java"
         ]
       }
     },
@@ -213,16 +213,16 @@
       "name": "Antimatterhelmet",
       "type": "armor",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/antimatterhelmet_chestplate.json",
-          "src/main/resources/assets/level_up/models/item/antimatterhelmet_boots.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json",
           "src/main/java/net/mcreator/levelup/item/AntimatterhelmetItem.java",
           "src/main/resources/assets/level_up/models/item/antimatterhelmet_helmet.json",
-          "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json"
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_chestplate.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_boots.json"
         ]
       }
     },
@@ -289,9 +289,9 @@
         "files": [
           "src/main/resources/assets/level_up/models/item/littlepatootie_spawn_egg.json",
           "src/main/java/net/mcreator/levelup/entity/LittlepatootieEntity.java",
-          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json",
+          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java",
           "src/main/java/net/mcreator/levelup/entity/model/LittlepatootieModel.java",
-          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java"
+          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json"
         ]
       }
     },

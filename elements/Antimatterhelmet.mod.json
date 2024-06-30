@@ -10,9 +10,6 @@
     "textureLeggings": "antimatter_leggibngs",
     "enableBoots": true,
     "textureBoots": "antimatter_boots",
-    "onHelmetTick": {
-      "name": "AntimatterhelmetHelmetTickEvent"
-    },
     "creativeTab": {
       "value": "CUSTOM:LevelUp"
     },
