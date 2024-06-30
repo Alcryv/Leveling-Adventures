@@ -453,6 +453,20 @@
           "src/main/resources/data/level_up/recipes/antimatter_furnace_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Ancientpickaxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ancientpickaxe.json",
+          "src/main/java/net/mcreator/levelup/item/AncientpickaxeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -488,6 +502,7 @@
       "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
       "block.level_up.ancientoreblock": "Ancientoreblock",
       "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
+      "item.level_up.ancientpickaxe": "Ancient pickaxe",
       "item.level_up.antimatteringot": "Antimatter ingot",
       "item.level_up.antimatterhelmet_boots": "Antimatter  Boots"
     }
