@@ -213,7 +213,7 @@
       "name": "Antimatterhelmet",
       "type": "armor",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatterhelmet",
       "metadata": {
@@ -223,37 +223,6 @@
           "src/main/java/net/mcreator/levelup/item/AntimatterhelmetItem.java",
           "src/main/resources/assets/level_up/models/item/antimatterhelmet_helmet.json",
           "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json"
-        ]
-      }
-    },
-    {
-      "name": "AntimatterhelmetHelmetTickEvent",
-      "type": "procedure",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatterhelmet_helmet_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetHelmetTickEventProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
@@ -306,99 +275,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/level_up/recipes/antimatterb.json"
-        ]
-      }
-    },
-    {
-      "name": "AntimatterhelmetChestplateTickEvent",
-      "type": "procedure",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatterhelmet_chestplate_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetChestplateTickEventProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AntimatterhelmetLeggingsTickEvent",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatterhelmet_leggings_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetLeggingsTickEventProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AntimatterhelmetBootsTickEvent",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "antimatterhelmet_boots_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/procedures/AntimatterhelmetBootsTickEventProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
