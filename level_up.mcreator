@@ -321,6 +321,37 @@
       }
     },
     {
+      "name": "FurnaceTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/FurnaceTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "AntimatterFurnace",
       "type": "block",
       "sortid": 27,
@@ -353,37 +384,6 @@
       }
     },
     {
-      "name": "FurnaceTick",
-      "type": "procedure",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "furnace_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/procedures/FurnaceTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "FurnaceDisplayTick",
       "type": "procedure",
       "sortid": 30,
@@ -395,6 +395,50 @@
           "src/main/java/net/mcreator/levelup/procedures/FurnaceDisplayTickProcedure.java"
         ],
         "dependencies": []
+      }
+    },
+    {
+      "name": "Ancientoreblock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientoreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/blockstates/ancientoreblock.json",
+          "src/main/resources/assets/level_up/models/block/ancientoreblock.json",
+          "src/main/resources/assets/level_up/models/item/ancientoreblock.json",
+          "src/main/resources/data/level_up/loot_tables/blocks/ancientoreblock.json",
+          "src/main/java/net/mcreator/levelup/block/AncientoreblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Ancientingot",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ancientingot.json",
+          "src/main/java/net/mcreator/levelup/item/AncientingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ancientingotsmeltingrecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientingotsmeltingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ancientingotsmeltingrecipe.json"
+        ]
       }
     }
   ],
@@ -416,7 +460,8 @@
       "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
       "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
-      "block.level_up.antimatter_furnace": "Antimatter Armor Recycling Furnace",
+      "block.level_up.antimatter_furnace": "Antimatter Furnace",
+      "item.level_up.ancientingot": "Ancient ingot",
       "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
       "item_group.level_up.level_up": "Level Up!",
       "item.level_up.ancientrawore": "Ancientrawore",
@@ -428,6 +473,7 @@
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
       "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
+      "block.level_up.ancientoreblock": "Ancientoreblock",
       "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
       "item.level_up.antimatteringot": "Antimatter ingot",
       "item.level_up.antimatterhelmet_boots": "Antimatter  Boots"
