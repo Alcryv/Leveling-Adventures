@@ -125,6 +125,20 @@
           "src/main/java/net/mcreator/levelup/item/SwordofxpItem.java"
         ]
       }
+    },
+    {
+      "name": "Xppicaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xppicaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/XppicaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/xppicaxe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -142,6 +156,7 @@
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
       "item.level_up.swordofxp": "Swordofxp",
+      "item.level_up.xppicaxe": "Xppicaxe",
       "item.level_up.antimatteringot": "Antimatteringot",
       "block.level_up.antimatteroreblock": "Antimatteroreblock",
       "item.level_up.testo": "Testo"

@@ -26,6 +26,10 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModItems.SWORDOFXP.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(LevelUpModItems.ANTIMATTERORE.get());
+			tabData.accept(LevelUpModItems.ANTIMATTERINGOT.get());
+			tabData.accept(LevelUpModBlocks.ANTIMATTEROREBLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(LevelUpModItems.XPPICAXE.get());
 		}
 	}
 }
