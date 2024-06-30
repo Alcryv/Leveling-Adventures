@@ -21,6 +21,7 @@ import net.mcreator.levelup.item.AntimatteroreItem;
 import net.mcreator.levelup.item.AntimatteringotItem;
 import net.mcreator.levelup.item.AntimatterhelmetItem;
 import net.mcreator.levelup.item.AntimatteraxeItem;
+import net.mcreator.levelup.item.AncientraworeItem;
 import net.mcreator.levelup.LevelUpMod;
 
 public class LevelUpModItems {
@@ -38,6 +39,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERHELMET_LEGGINGS = REGISTRY.register("antimatterhelmet_leggings", () -> new AntimatterhelmetItem.Leggings());
 	public static final RegistryObject<Item> ANTIMATTERHELMET_BOOTS = REGISTRY.register("antimatterhelmet_boots", () -> new AntimatterhelmetItem.Boots());
 	public static final RegistryObject<Item> LITTLEPATOOTIE_SPAWN_EGG = REGISTRY.register("littlepatootie_spawn_egg", () -> new ForgeSpawnEggItem(LevelUpModEntities.LITTLEPATOOTIE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ANCIENTRAWORE = REGISTRY.register("ancientrawore", () -> new AncientraworeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

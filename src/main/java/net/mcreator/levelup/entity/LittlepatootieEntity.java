@@ -165,7 +165,7 @@ public class LittlepatootieEntity extends PathfinderMob implements GeoEntity {
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround() && !this.isVehicle() && !this.isAggressive()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop(""));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("model.animation.json"));
 			}
 			if (this.isDeadOrDying()) {
 				return event.setAndContinue(RawAnimation.begin().thenPlay(""));
@@ -188,7 +188,7 @@ public class LittlepatootieEntity extends PathfinderMob implements GeoEntity {
 			if (this.isAggressive() && event.isMoving() && !this.isVehicle()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop(""));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("idonthaveti"));
 		}
 		return PlayState.STOP;
 	}
@@ -243,9 +243,9 @@ public class LittlepatootieEntity extends PathfinderMob implements GeoEntity {
 
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
-		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
-		data.add(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
-		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+		data.add(new AnimationController<>(this, "movement", 5, this::movementPredicate));
+		data.add(new AnimationController<>(this, "attacking", 5, this::attackingPredicate));
+		data.add(new AnimationController<>(this, "procedure", 5, this::procedurePredicate));
 	}
 
 	@Override

@@ -289,9 +289,9 @@
         "files": [
           "src/main/resources/assets/level_up/models/item/littlepatootie_spawn_egg.json",
           "src/main/java/net/mcreator/levelup/entity/LittlepatootieEntity.java",
-          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java",
+          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json",
           "src/main/java/net/mcreator/levelup/entity/model/LittlepatootieModel.java",
-          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json"
+          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java"
         ]
       }
     },
@@ -304,6 +304,20 @@
       "registry_name": "level_up",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "Ancientrawore",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientrawore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AncientraworeItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientrawore.json"
+        ]
       }
     }
   ],
@@ -326,6 +340,7 @@
       "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
       "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
       "item_group.level_up.level_up": "Level Up!",
+      "item.level_up.ancientrawore": "Ancientrawore",
       "advancements.antimatteroreadvancement.title": "First of many",
       "entity.level_up.littlepatootie": "Littlepatootie",
       "block.level_up.antimatteroreblock": "Antimatter ore block",
