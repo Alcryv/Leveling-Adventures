@@ -22,6 +22,7 @@ import net.mcreator.levelup.item.AntimatteringotItem;
 import net.mcreator.levelup.item.AntimatterhelmetItem;
 import net.mcreator.levelup.item.AntimatteraxeItem;
 import net.mcreator.levelup.item.AncientraworeItem;
+import net.mcreator.levelup.item.AncientingotItem;
 import net.mcreator.levelup.LevelUpMod;
 
 public class LevelUpModItems {
@@ -42,6 +43,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTER_FURNACE = block(LevelUpModBlocks.ANTIMATTER_FURNACE);
 	public static final RegistryObject<Item> ANCIENTRAWORE = REGISTRY.register("ancientrawore", () -> new AncientraworeItem());
 	public static final RegistryObject<Item> ANCIENTOREBLOCK = block(LevelUpModBlocks.ANCIENTOREBLOCK);
+	public static final RegistryObject<Item> ANCIENTINGOT = REGISTRY.register("ancientingot", () -> new AncientingotItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
