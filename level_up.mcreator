@@ -423,8 +423,8 @@
       "registry_name": "ancientingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/ancientingot.json",
-          "src/main/java/net/mcreator/levelup/item/AncientingotItem.java"
+          "src/main/java/net/mcreator/levelup/item/AncientingotItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientingot.json"
         ]
       }
     },
@@ -438,6 +438,20 @@
       "metadata": {
         "files": [
           "src/main/resources/data/level_up/recipes/ancientingotsmeltingrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientpickaxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AncientpickaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientpickaxe.json"
         ]
       }
     }
@@ -475,6 +489,7 @@
       "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
       "block.level_up.ancientoreblock": "Ancientoreblock",
       "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
+      "item.level_up.ancientpickaxe": "Ancient pickaxe",
       "item.level_up.antimatteringot": "Antimatter ingot",
       "item.level_up.antimatterhelmet_boots": "Antimatter  Boots"
     }

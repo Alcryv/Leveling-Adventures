@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ancient_ingot",
+    "texture": "ancient_ingot_rework",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

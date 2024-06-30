@@ -35,6 +35,7 @@ public class LevelUpModTabs {
 				tabData.accept(LevelUpModItems.ANCIENTRAWORE.get());
 				tabData.accept(LevelUpModBlocks.ANCIENTOREBLOCK.get().asItem());
 				tabData.accept(LevelUpModItems.ANCIENTINGOT.get());
+				tabData.accept(LevelUpModItems.ANCIENTPICKAXE.get());
 			})
 
 					.build());
