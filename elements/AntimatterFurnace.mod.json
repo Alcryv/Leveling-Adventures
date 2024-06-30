@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Antimatter Furnace",
+    "name": "Antimatter Armor Recycling Furnace",
     "specialInformation": {
       "fixedValue": []
     },
@@ -124,6 +124,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "FurnaceTick"
+    },
+    "onRandomUpdateEvent": {
+      "name": "FurnaceDisplayTick"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

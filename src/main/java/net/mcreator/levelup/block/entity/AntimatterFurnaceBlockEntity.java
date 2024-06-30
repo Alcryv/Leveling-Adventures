@@ -94,7 +94,7 @@ public class AntimatterFurnaceBlockEntity extends RandomizableContainerBlockEnti
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Antimatter Furnace");
+		return Component.literal("Antimatter Armor Recycling Furnace");
 	}
 
 	@Override
