@@ -50,6 +50,7 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModItems.XPPICAXE.get());
 			tabData.accept(LevelUpModItems.XPSHOVEL.get());
 			tabData.accept(LevelUpModItems.XPZAPPA.get());
+			tabData.accept(LevelUpModItems.XPAXE.get());
 		}
 	}
 }

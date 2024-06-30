@@ -519,6 +519,20 @@
           "src/main/java/net/mcreator/levelup/item/XpzappaItem.java"
         ]
       }
+    },
+    {
+      "name": "Xpaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/XpaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/xpaxe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -536,6 +550,7 @@
     "en_us": {
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterore": "Antimatterore",
+      "item.level_up.xpaxe": "Xpaxe",
       "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
       "entity.level_up.littlepatootie": "Littlepatootie",
