@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.levelup.item.XpzappaItem;
 import net.mcreator.levelup.item.XpshovelItem;
 import net.mcreator.levelup.item.XppicaxeItem;
 import net.mcreator.levelup.item.SwordofxpItem;
@@ -48,6 +49,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERAXE = REGISTRY.register("antimatteraxe", () -> new AntimatteraxeItem());
 	public static final RegistryObject<Item> ANCIENTOREBLOCK = block(LevelUpModBlocks.ANCIENTOREBLOCK);
 	public static final RegistryObject<Item> XPSHOVEL = REGISTRY.register("xpshovel", () -> new XpshovelItem());
+	public static final RegistryObject<Item> XPZAPPA = REGISTRY.register("xpzappa", () -> new XpzappaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

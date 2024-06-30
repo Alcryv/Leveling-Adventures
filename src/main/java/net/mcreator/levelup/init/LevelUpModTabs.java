@@ -49,6 +49,7 @@ public class LevelUpModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LevelUpModItems.XPPICAXE.get());
 			tabData.accept(LevelUpModItems.XPSHOVEL.get());
+			tabData.accept(LevelUpModItems.XPZAPPA.get());
 		}
 	}
 }

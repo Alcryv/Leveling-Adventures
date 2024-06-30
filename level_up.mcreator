@@ -505,6 +505,20 @@
           "src/main/java/net/mcreator/levelup/item/XpshovelItem.java"
         ]
       }
+    },
+    {
+      "name": "Xpzappa",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpzappa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/xpzappa.json",
+          "src/main/java/net/mcreator/levelup/item/XpzappaItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -527,7 +541,8 @@
       "entity.level_up.littlepatootie": "Littlepatootie",
       "item.level_up.antimatteringot": "Antimatteringot",
       "block.level_up.antimatteroreblock": "Antimatteroreblock",
-      "item.level_up.xpshovel": "Xpshovel"
+      "item.level_up.xpshovel": "Xpshovel",
+      "item.level_up.xpzappa": "Xpzappa"
     }
   },
   "foldersRoot": {
