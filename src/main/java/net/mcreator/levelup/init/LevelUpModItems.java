@@ -38,6 +38,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANTIMATTERHELMET_LEGGINGS = REGISTRY.register("antimatterhelmet_leggings", () -> new AntimatterhelmetItem.Leggings());
 	public static final RegistryObject<Item> ANTIMATTERHELMET_BOOTS = REGISTRY.register("antimatterhelmet_boots", () -> new AntimatterhelmetItem.Boots());
 	public static final RegistryObject<Item> LITTLEPATOOTIE_SPAWN_EGG = REGISTRY.register("littlepatootie_spawn_egg", () -> new ForgeSpawnEggItem(LevelUpModEntities.LITTLEPATOOTIE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ANTIMATTER_FURNACE = block(LevelUpModBlocks.ANTIMATTER_FURNACE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

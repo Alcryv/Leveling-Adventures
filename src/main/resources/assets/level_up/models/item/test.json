@@ -1,6 +1,0 @@
-{
-  "parent": "level_up:displaysettings/model.item",
-  "textures": {
-    "layer0": "level_up:item/texture"
-  }
-}

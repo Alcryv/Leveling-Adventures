@@ -2,17 +2,17 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "antimatteroreblock",
-    "textureTop": "antimatteroreblock",
-    "textureLeft": "antimatteroreblock",
-    "textureFront": "antimatteroreblock",
-    "textureRight": "antimatteroreblock",
-    "textureBack": "antimatteroreblock",
+    "texture": "furnacetop",
+    "textureTop": "furnacetop",
+    "textureLeft": "antimatter_furnace_side",
+    "textureFront": "antimatter_furnace_top_and_bottom",
+    "textureRight": "antimatter_furnace_side",
+    "textureBack": "antimatter_furnace_side",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Antimatter ore block",
+    "name": "Antimatter Furnace",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 5.0,
-    "resistance": 50.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -46,19 +46,19 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Antimatterore"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 10,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,7 +77,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -98,19 +98,24 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 10,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "hasInventory": true,
+    "guiBoundTo": "AntimatterFurnaceGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      2
+    ],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -119,17 +124,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 15,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 40
+    "maxGenerateHeight": 64
   }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "level_up:block/antimatter_furnace"
+    },
+    "facing=east": {
+      "model": "level_up:block/antimatter_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "level_up:block/antimatter_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "level_up:block/antimatter_furnace",
+      "y": 270
+    }
+  }
+}

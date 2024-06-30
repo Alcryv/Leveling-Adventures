@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "level_up:block/furnacetop",
+    "up": "level_up:block/furnacetop",
+    "north": "level_up:block/antimatter_furnace_top_and_bottom",
+    "east": "level_up:block/antimatter_furnace_side",
+    "south": "level_up:block/antimatter_furnace_side",
+    "west": "level_up:block/antimatter_furnace_side",
+    "particle": "level_up:block/furnacetop"
+  },
+  "render_type": "solid"
+}

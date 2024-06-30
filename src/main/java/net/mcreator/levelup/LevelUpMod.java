@@ -18,9 +18,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.levelup.init.LevelUpModTabs;
+import net.mcreator.levelup.init.LevelUpModMenus;
 import net.mcreator.levelup.init.LevelUpModItems;
 import net.mcreator.levelup.init.LevelUpModEntities;
 import net.mcreator.levelup.init.LevelUpModBlocks;
+import net.mcreator.levelup.init.LevelUpModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,12 +45,13 @@ public class LevelUpMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		LevelUpModBlocks.REGISTRY.register(bus);
-
+		LevelUpModBlockEntities.REGISTRY.register(bus);
 		LevelUpModItems.REGISTRY.register(bus);
 		LevelUpModEntities.REGISTRY.register(bus);
 
 		LevelUpModTabs.REGISTRY.register(bus);
 
+		LevelUpModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

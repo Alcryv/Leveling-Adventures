@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "level_up:antimatter_furnace",
     "level_up:antimatteroreblock"
   ]
 }
