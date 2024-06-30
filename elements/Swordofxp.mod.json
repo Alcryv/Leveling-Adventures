@@ -4,13 +4,13 @@
   "definition": {
     "renderType": 0,
     "texture": "sword_of_xp",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "customProperties": {},
     "states": [],
     "name": "Swordofxp",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:LevelUp"
     },
     "stackSize": 1,
     "enchantability": 0,

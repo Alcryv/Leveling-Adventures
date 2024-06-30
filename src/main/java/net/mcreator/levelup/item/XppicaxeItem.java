@@ -1,10 +1,7 @@
 
 package net.mcreator.levelup.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class XppicaxeItem extends PickaxeItem {
 	public XppicaxeItem() {

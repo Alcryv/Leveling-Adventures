@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "level_up:block/top_ancient_ore_block",
+    "up": "level_up:block/top_ancient_ore_block",
+    "north": "level_up:block/ancient_ore_block",
+    "east": "level_up:block/ancient_ore_block",
+    "south": "level_up:block/ancient_ore_block",
+    "west": "level_up:block/ancient_ore_block",
+    "particle": "level_up:block/top_ancient_ore_block"
+  },
+  "render_type": "solid"
+}

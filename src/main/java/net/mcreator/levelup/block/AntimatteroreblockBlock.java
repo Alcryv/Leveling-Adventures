@@ -1,6 +1,9 @@
 
 package net.mcreator.levelup.block;
 
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -10,11 +13,12 @@ import net.minecraft.core.BlockPos;
 
 public class AntimatteroreblockBlock extends Block {
 	public AntimatteroreblockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 50f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5f, 50f).lightLevel(s -> 10).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 10;
 	}
 }

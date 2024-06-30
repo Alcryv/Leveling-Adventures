@@ -99,20 +99,6 @@
       }
     },
     {
-      "name": "Testo",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testo",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/TestoItem.java",
-          "src/main/resources/assets/level_up/models/item/testo.json"
-        ]
-      }
-    },
-    {
       "name": "Swordofxp",
       "type": "item",
       "sortid": 7,
@@ -139,12 +125,379 @@
           "src/main/resources/assets/level_up/models/item/xppicaxe.json"
         ]
       }
+    },
+    {
+      "name": "FurnaceDisplayTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/FurnaceDisplayTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FurnaceTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/procedures/FurnaceTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antimatteroreadvancement",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteroreadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/advancements/antimatteroreadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientrawore",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientrawore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ancientrawore.json",
+          "src/main/java/net/mcreator/levelup/item/AncientraworeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterhelmet",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AntimatterhelmetItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_chestplate.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_boots.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_helmet.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxeantimatter",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxeantimatter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/pickaxeantimatter.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimattershovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimattershovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimattershovel.json",
+          "src/main/java/net/mcreator/levelup/item/AntimattershovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterFurnaceAdvancement",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_furnace_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/advancements/antimatter_furnace_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterFurnace",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/blockstates/antimatter_furnace.json",
+          "src/main/resources/assets/level_up/models/item/antimatter_furnace.json",
+          "src/main/java/net/mcreator/levelup/block/AntimatterFurnaceBlock.java",
+          "src/main/resources/data/level_up/loot_tables/blocks/antimatter_furnace.json",
+          "src/main/java/net/mcreator/levelup/block/entity/AntimatterFurnaceBlockEntity.java",
+          "src/main/resources/assets/level_up/models/block/antimatter_furnace.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterb",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterb.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterc",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterc.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterh",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterh.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientingot",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ancientingot.json",
+          "src/main/java/net/mcreator/levelup/item/AncientingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatter_furnace_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientpickaxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AncientpickaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterl",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatterl.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientingotsmeltingrecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientingotsmeltingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ancientingotsmeltingrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatterpickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatterpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AntimatterpickaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Littlepatootie",
+      "type": "animatedentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littlepatootie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/littlepatootie_spawn_egg.json",
+          "src/main/java/net/mcreator/levelup/entity/LittlepatootieEntity.java",
+          "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java",
+          "src/main/java/net/mcreator/levelup/entity/model/LittlepatootieModel.java",
+          "src/main/resources/data/level_up/forge/biome_modifier/littlepatootie_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "AntimatterFurnaceGUI",
+      "type": "gui",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/client/gui/AntimatterFurnaceGUIScreen.java",
+          "src/main/java/net/mcreator/levelup/world/inventory/AntimatterFurnaceGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Antimatteraxe",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatteraxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/antimatteraxe.json",
+          "src/main/java/net/mcreator/levelup/item/AntimatteraxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aar",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/aar.json"
+        ]
+      }
+    },
+    {
+      "name": "Antimatters",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatters.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientoreblock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientoreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/block/ancientoreblock.json",
+          "src/main/java/net/mcreator/levelup/block/AncientoreblockBlock.java",
+          "src/main/resources/data/level_up/loot_tables/blocks/ancientoreblock.json",
+          "src/main/resources/assets/level_up/blockstates/ancientoreblock.json",
+          "src/main/resources/assets/level_up/models/item/ancientoreblock.json"
+        ]
+      }
+    },
+    {
+      "name": "LevelUp",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_up",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AntimatterFurnace",
       "~CUSTOM:Antimatteroreblock"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -153,13 +506,13 @@
   },
   "language_map": {
     "en_us": {
-      "item.level_up.antimattersword": "Antimatter sword",
-      "item.level_up.antimatterore": "Antimatterore",
       "item.level_up.swordofxp": "Swordofxp",
-      "item.level_up.xppicaxe": "Xppicaxe",
-      "item.level_up.antimatteringot": "Antimatteringot",
+      "entity.level_up.littlepatootie": "Littlepatootie",
       "block.level_up.antimatteroreblock": "Antimatteroreblock",
-      "item.level_up.testo": "Testo"
+      "item.level_up.antimattersword": "Antimatter sword",
+      "item.level_up.antimatteringot": "Antimatteringot",
+      "item.level_up.antimatterore": "Antimatterore",
+      "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg"
     }
   },
   "foldersRoot": {

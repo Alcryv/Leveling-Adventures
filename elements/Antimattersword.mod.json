@@ -10,7 +10,7 @@
     "name": "Antimatter sword",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:LevelUp"
     },
     "stackSize": 1,
     "enchantability": 64,

@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "a",
+    "texture": "ancient_ingot_rework",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Testo",
+    "name": "Ancient ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:LevelUp"
     },
     "stackSize": 64,
     "enchantability": 0,

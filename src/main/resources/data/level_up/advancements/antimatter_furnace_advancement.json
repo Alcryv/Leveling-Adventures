@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "level_up:deleted_mod_element"
+    },
+    "title": {
+      "translate": "advancements.antimatter_furnace_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.antimatter_furnace_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "antimatter_furnace_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "level_up:deleted_mod_element"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "level_up:deleted_mod_element"
+}
