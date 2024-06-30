@@ -259,7 +259,7 @@
       "name": "AntimatterFurnace",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatter_furnace",
       "metadata": {
@@ -397,7 +397,7 @@
       "name": "Littlepatootie",
       "type": "animatedentity",
       "sortid": 25,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "littlepatootie",
       "metadata": {
@@ -414,7 +414,7 @@
       "name": "AntimatterFurnaceGUI",
       "type": "gui",
       "sortid": 28,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatter_furnace_gui",
       "metadata": {
@@ -468,7 +468,7 @@
       "name": "Ancientoreblock",
       "type": "block",
       "sortid": 30,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ancientoreblock",
       "metadata": {
@@ -491,6 +491,20 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Xpshovel",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xpshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/xpshovel.json",
+          "src/main/java/net/mcreator/levelup/item/XpshovelItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -506,13 +520,14 @@
   },
   "language_map": {
     "en_us": {
-      "item.level_up.swordofxp": "Swordofxp",
-      "entity.level_up.littlepatootie": "Littlepatootie",
-      "block.level_up.antimatteroreblock": "Antimatteroreblock",
       "item.level_up.antimattersword": "Antimatter sword",
-      "item.level_up.antimatteringot": "Antimatteringot",
       "item.level_up.antimatterore": "Antimatterore",
-      "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg"
+      "item.level_up.swordofxp": "Swordofxp",
+      "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
+      "entity.level_up.littlepatootie": "Littlepatootie",
+      "item.level_up.antimatteringot": "Antimatteringot",
+      "block.level_up.antimatteroreblock": "Antimatteroreblock",
+      "item.level_up.xpshovel": "Xpshovel"
     }
   },
   "foldersRoot": {

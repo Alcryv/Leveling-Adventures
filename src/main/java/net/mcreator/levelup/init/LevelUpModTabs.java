@@ -48,6 +48,7 @@ public class LevelUpModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LevelUpModItems.XPPICAXE.get());
+			tabData.accept(LevelUpModItems.XPSHOVEL.get());
 		}
 	}
 }
