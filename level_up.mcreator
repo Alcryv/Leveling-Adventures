@@ -382,6 +382,23 @@
           "src/main/resources/assets/level_up/models/item/ancientrawore.json"
         ]
       }
+    },
+    {
+      "name": "Ancientoreblock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientoreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/loot_tables/blocks/ancientoreblock.json",
+          "src/main/resources/assets/level_up/models/item/ancientoreblock.json",
+          "src/main/resources/assets/level_up/models/block/ancientoreblock.json",
+          "src/main/java/net/mcreator/levelup/block/AncientoreblockBlock.java",
+          "src/main/resources/assets/level_up/blockstates/ancientoreblock.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -411,6 +428,7 @@
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
       "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
+      "block.level_up.ancientoreblock": "Ancientoreblock",
       "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
       "item.level_up.antimatteringot": "Antimatter ingot",
       "item.level_up.antimatterhelmet_boots": "Antimatter  Boots"

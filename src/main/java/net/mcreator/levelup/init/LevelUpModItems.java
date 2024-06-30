@@ -41,6 +41,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> LITTLEPATOOTIE_SPAWN_EGG = REGISTRY.register("littlepatootie_spawn_egg", () -> new ForgeSpawnEggItem(LevelUpModEntities.LITTLEPATOOTIE, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> ANTIMATTER_FURNACE = block(LevelUpModBlocks.ANTIMATTER_FURNACE);
 	public static final RegistryObject<Item> ANCIENTRAWORE = REGISTRY.register("ancientrawore", () -> new AncientraworeItem());
+	public static final RegistryObject<Item> ANCIENTOREBLOCK = block(LevelUpModBlocks.ANCIENTOREBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
