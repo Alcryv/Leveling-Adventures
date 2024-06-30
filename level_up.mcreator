@@ -440,6 +440,19 @@
           "src/main/resources/data/level_up/recipes/ancientingotsmeltingrecipe.json"
         ]
       }
+    },
+    {
+      "name": "AntimatterFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/antimatter_furnace_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
