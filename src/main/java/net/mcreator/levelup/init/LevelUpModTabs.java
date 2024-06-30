@@ -32,6 +32,7 @@ public class LevelUpModTabs {
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_BOOTS.get());
 				tabData.accept(LevelUpModItems.LITTLEPATOOTIE_SPAWN_EGG.get());
 				tabData.accept(LevelUpModBlocks.ANTIMATTER_FURNACE.get().asItem());
+				tabData.accept(LevelUpModItems.ANCIENTRAWORE.get());
 			})
 
 					.build());
