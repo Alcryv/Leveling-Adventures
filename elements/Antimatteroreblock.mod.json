@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:LevelUp"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

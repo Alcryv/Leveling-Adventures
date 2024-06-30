@@ -10,7 +10,7 @@
     "name": "Antimatter axe",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:LevelUp"
     },
     "stackSize": 1,
     "enchantability": 50,

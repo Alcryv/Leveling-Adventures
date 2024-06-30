@@ -14,7 +14,7 @@
       "name": "AntimatterhelmetHelmetTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:LevelUp"
     },
     "armorTextureFile": "antimatter_armor",
     "helmetName": "Antimatter Helmet",

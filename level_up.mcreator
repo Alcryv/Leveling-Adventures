@@ -213,7 +213,7 @@
       "name": "Antimatterhelmet",
       "type": "armor",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatterhelmet",
       "metadata": {
@@ -293,6 +293,17 @@
           "src/main/java/net/mcreator/levelup/entity/model/LittlepatootieModel.java",
           "src/main/java/net/mcreator/levelup/client/renderer/LittlepatootieRenderer.java"
         ]
+      }
+    },
+    {
+      "name": "LevelUp",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_up",
+      "metadata": {
+        "files": []
       }
     }
   ],
