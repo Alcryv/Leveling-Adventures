@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "ancient_ore_block",
+    "texture": "top_ancient_ore_block",
     "textureTop": "top_ancient_ore_block",
     "textureLeft": "ancient_ore_block",
     "textureFront": "ancient_ore_block",

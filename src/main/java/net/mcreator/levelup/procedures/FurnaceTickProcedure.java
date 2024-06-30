@@ -681,7 +681,7 @@ public class FurnaceTickProcedure {
 								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 							return _retval.get();
 						}
-					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Blocks.COAL_BLOCK.asItem()) {
+					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Items.COAL) {
 						{
 							BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 							if (_ent != null) {
@@ -722,7 +722,7 @@ public class FurnaceTickProcedure {
 								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 							return _retval.get();
 						}
-					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Items.BLAZE_POWDER) {
+					}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == Blocks.COAL_BLOCK.asItem()) {
 						{
 							BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 							if (_ent != null) {
