@@ -413,6 +413,19 @@
           "src/main/resources/assets/level_up/models/item/ancientingot.json"
         ]
       }
+    },
+    {
+      "name": "Ancientingotsmeltingrecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientingotsmeltingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ancientingotsmeltingrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
