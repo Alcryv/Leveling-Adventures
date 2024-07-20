@@ -550,6 +550,58 @@
           "src/main/resources/assets/level_up/models/item/ametist_armor_leggings.json"
         ]
       }
+    },
+    {
+      "name": "Ametisthelmet",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametisthelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ametisthelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Irlydontknowbro",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irlydontknowbro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/irlydontknowbro.json"
+        ]
+      }
+    },
+    {
+      "name": "Irlydontknowbro2ahhahahahahahah",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irlydontknowbro_2ahhahahahahahah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/irlydontknowbro_2ahhahahahahahah.json"
+        ]
+      }
+    },
+    {
+      "name": "Alcryvisstoopidlikepootis",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcryvisstoopidlikepootis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/alcryvisstoopidlikepootis.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -569,8 +621,8 @@
       "item.level_up.antimattershovel": "Antimatter shovel",
       "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
-      "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
       "item.level_up.ancientingot": "Ancient ingot",
+      "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
       "item_group.level_up.level_up": "Level Up!",
       "item.level_up.ancientrawore": "Ancientrawore",
       "advancements.antimatteroreadvancement.title": "First of many",
