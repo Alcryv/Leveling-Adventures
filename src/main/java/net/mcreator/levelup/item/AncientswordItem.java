@@ -14,19 +14,19 @@ import net.minecraft.world.entity.EquipmentSlot;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class AntimatteraxeItem extends Item {
-	public AntimatteraxeItem() {
-		super(new Item.Properties().durability(267).fireResistant().rarity(Rarity.COMMON));
+public class AncientswordItem extends Item {
+	public AncientswordItem() {
+		super(new Item.Properties().durability(12310).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public int getEnchantmentValue() {
-		return 50;
+		return 20;
 	}
 
 	@Override
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-		return 15f;
+		return 0.5f;
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class AntimatteraxeItem extends Item {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Item modifier", 12d, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Item modifier", 15d, AttributeModifier.Operation.ADDITION));
 			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Item modifier", -2.4, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
