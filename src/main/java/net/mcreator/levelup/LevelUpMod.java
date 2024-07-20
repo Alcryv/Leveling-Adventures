@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.levelup.init.LevelUpModTabs;
 import net.mcreator.levelup.init.LevelUpModMenus;
 import net.mcreator.levelup.init.LevelUpModItems;
+import net.mcreator.levelup.init.LevelUpModEntities;
 import net.mcreator.levelup.init.LevelUpModBlocks;
 import net.mcreator.levelup.init.LevelUpModBlockEntities;
 
@@ -46,6 +47,7 @@ public class LevelUpMod {
 		LevelUpModBlocks.REGISTRY.register(bus);
 		LevelUpModBlockEntities.REGISTRY.register(bus);
 		LevelUpModItems.REGISTRY.register(bus);
+		LevelUpModEntities.REGISTRY.register(bus);
 
 		LevelUpModTabs.REGISTRY.register(bus);
 

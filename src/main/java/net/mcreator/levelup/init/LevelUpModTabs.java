@@ -35,6 +35,7 @@ public class LevelUpModTabs {
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_CHESTPLATE.get());
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_LEGGINGS.get());
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_BOOTS.get());
+				tabData.accept(LevelUpModItems.LITTLEPATOOTIE_SPAWN_EGG.get());
 				tabData.accept(LevelUpModItems.ANCIENTRAWORE.get());
 				tabData.accept(LevelUpModBlocks.ANTIMATTER_FURNACE.get().asItem());
 				tabData.accept(LevelUpModBlocks.ANCIENTOREBLOCK.get().asItem());
