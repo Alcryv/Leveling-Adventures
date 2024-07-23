@@ -1,12 +1,17 @@
 {
-  "item.level_up.antimattersword": "Antimatter sword",
   "item.level_up.antimatterore": "Antimatterore",
   "item.level_up.xpaxe": "Xpaxe",
   "item.level_up.swordofxp": "Swordofxp",
+  "item.level_up.picconeametista": "Picconeametista",
   "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
+  "gui.level_up.antimatter_furnace_gui.label_antimatter_furnace": "Antimatter Furnace",
   "entity.level_up.littlepatootie": "Littlepatootie",
-  "item.level_up.antimatteringot": "Antimatteringot",
   "block.level_up.antimatteroreblock": "Antimatteroreblock",
   "item.level_up.xpshovel": "Xpshovel",
-  "item.level_up.xpzappa": "Xpzappa"
+  "item.level_up.xpzappa": "Xpzappa",
+  "item.level_up.antimattersword": "Antimatter sword",
+  "item.level_up.axeametist": "Axeametist",
+  "item.level_up.ametystshovel": "Ametystshovel",
+  "item.level_up.antimatteringot": "Antimatteringot",
+  "item.level_up.ametistaspada": "Ametistaspada"
 }

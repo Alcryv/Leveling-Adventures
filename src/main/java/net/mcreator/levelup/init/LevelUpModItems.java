@@ -18,6 +18,8 @@ import net.mcreator.levelup.item.XpshovelItem;
 import net.mcreator.levelup.item.XppicaxeItem;
 import net.mcreator.levelup.item.XpaxeItem;
 import net.mcreator.levelup.item.SwordofxpItem;
+import net.mcreator.levelup.item.PicconeametistaItem;
+import net.mcreator.levelup.item.AxeametistItem;
 import net.mcreator.levelup.item.AntimatterswordItem;
 import net.mcreator.levelup.item.AntimattershovelItem;
 import net.mcreator.levelup.item.AntimatterpickaxeItem;
@@ -28,6 +30,8 @@ import net.mcreator.levelup.item.AntimatteraxeItem;
 import net.mcreator.levelup.item.AncientraworeItem;
 import net.mcreator.levelup.item.AncientpickaxeItem;
 import net.mcreator.levelup.item.AncientingotItem;
+import net.mcreator.levelup.item.AmetystshovelItem;
+import net.mcreator.levelup.item.AmetistaspadaItem;
 import net.mcreator.levelup.LevelUpMod;
 
 public class LevelUpModItems {
@@ -54,6 +58,10 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> XPSHOVEL = REGISTRY.register("xpshovel", () -> new XpshovelItem());
 	public static final RegistryObject<Item> XPZAPPA = REGISTRY.register("xpzappa", () -> new XpzappaItem());
 	public static final RegistryObject<Item> XPAXE = REGISTRY.register("xpaxe", () -> new XpaxeItem());
+	public static final RegistryObject<Item> AMETISTASPADA = REGISTRY.register("ametistaspada", () -> new AmetistaspadaItem());
+	public static final RegistryObject<Item> PICCONEAMETISTA = REGISTRY.register("picconeametista", () -> new PicconeametistaItem());
+	public static final RegistryObject<Item> AMETYSTSHOVEL = REGISTRY.register("ametystshovel", () -> new AmetystshovelItem());
+	public static final RegistryObject<Item> AXEAMETIST = REGISTRY.register("axeametist", () -> new AxeametistItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

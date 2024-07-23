@@ -52,6 +52,10 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModItems.XPSHOVEL.get());
 			tabData.accept(LevelUpModItems.XPZAPPA.get());
 			tabData.accept(LevelUpModItems.XPAXE.get());
+			tabData.accept(LevelUpModItems.AMETISTASPADA.get());
+			tabData.accept(LevelUpModItems.PICCONEAMETISTA.get());
+			tabData.accept(LevelUpModItems.AMETYSTSHOVEL.get());
+			tabData.accept(LevelUpModItems.AXEAMETIST.get());
 		}
 	}
 }
