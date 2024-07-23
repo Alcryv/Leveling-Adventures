@@ -259,7 +259,7 @@
       "name": "AntimatterFurnace",
       "type": "block",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatter_furnace",
       "metadata": {
@@ -397,7 +397,7 @@
       "name": "Littlepatootie",
       "type": "animatedentity",
       "sortid": 25,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "littlepatootie",
       "metadata": {
@@ -414,7 +414,7 @@
       "name": "AntimatterFurnaceGUI",
       "type": "gui",
       "sortid": 28,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "antimatter_furnace_gui",
       "metadata": {
@@ -468,7 +468,7 @@
       "name": "Ancientoreblock",
       "type": "block",
       "sortid": 30,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ancientoreblock",
       "metadata": {
@@ -535,30 +535,16 @@
       }
     },
     {
-      "name": "Ametistaspada",
+      "name": "Axeametist",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ametistaspada",
+      "registry_name": "axeametist",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/AmetistaspadaItem.java",
-          "src/main/resources/assets/level_up/models/item/ametistaspada.json"
-        ]
-      }
-    },
-    {
-      "name": "Picconeametista",
-      "type": "tool",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "picconeametista",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/level_up/models/item/picconeametista.json",
-          "src/main/java/net/mcreator/levelup/item/PicconeametistaItem.java"
+          "src/main/resources/assets/level_up/models/item/axeametist.json",
+          "src/main/java/net/mcreator/levelup/item/AxeametistItem.java"
         ]
       }
     },
@@ -577,16 +563,113 @@
       }
     },
     {
-      "name": "Axeametist",
+      "name": "Picconeametista",
       "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "picconeametista",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/picconeametista.json",
+          "src/main/java/net/mcreator/levelup/item/PicconeametistaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ametistaspada",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametistaspada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AmetistaspadaItem.java",
+          "src/main/resources/assets/level_up/models/item/ametistaspada.json"
+        ]
+      }
+    },
+    {
+      "name": "Ametisthelmet",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametisthelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ametisthelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Irlydontknowbro",
+      "type": "recipe",
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "axeametist",
+      "registry_name": "irlydontknowbro",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/axeametist.json",
-          "src/main/java/net/mcreator/levelup/item/AxeametistItem.java"
+          "src/main/resources/data/level_up/recipes/irlydontknowbro.json"
+        ]
+      }
+    },
+    {
+      "name": "AmetistArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametist_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ametist_armor_leggings.json",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_chestplate.json",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_helmet.json",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_boots.json",
+          "src/main/java/net/mcreator/levelup/item/AmetistArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Irlydontknowbro2ahhahahahahahah",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irlydontknowbro_2ahhahahahahahah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/irlydontknowbro_2ahhahahahahahah.json"
+        ]
+      }
+    },
+    {
+      "name": "Alcryvisstoopidlikepootis",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcryvisstoopidlikepootis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/alcryvisstoopidlikepootis.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientsword",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AncientswordItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientsword.json"
         ]
       }
     }

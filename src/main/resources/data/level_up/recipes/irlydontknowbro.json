@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
+    "a a",
     "aaa",
-    " b ",
-    " b "
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "level_up:antimatteringot"
-    },
-    "b": {
-      "item": "minecraft:stick"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "level_up:antimatterpickaxe",
+    "item": "level_up:deleted_mod_element_chestplate",
     "count": 1
   }
 }

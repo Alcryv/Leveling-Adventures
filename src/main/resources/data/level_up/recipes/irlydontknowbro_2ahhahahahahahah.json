@@ -3,19 +3,16 @@
   "category": "misc",
   "pattern": [
     "aaa",
-    " b ",
-    " b "
+    "a a",
+    "a a"
   ],
   "key": {
     "a": {
-      "item": "level_up:antimatteringot"
-    },
-    "b": {
-      "item": "minecraft:stick"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "level_up:antimatterpickaxe",
+    "item": "level_up:ametist_armor_leggings",
     "count": 1
   }
 }

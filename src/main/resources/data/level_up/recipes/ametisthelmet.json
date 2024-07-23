@@ -3,19 +3,15 @@
   "category": "misc",
   "pattern": [
     "aaa",
-    " b ",
-    " b "
+    "a a"
   ],
   "key": {
     "a": {
-      "item": "level_up:antimatteringot"
-    },
-    "b": {
-      "item": "minecraft:stick"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "level_up:antimatterpickaxe",
+    "item": "level_up:deleted_mod_element_helmet",
     "count": 1
   }
 }
