@@ -31,6 +31,7 @@ import net.mcreator.levelup.item.AncientraworeItem;
 import net.mcreator.levelup.item.AncientpickaxeItem;
 import net.mcreator.levelup.item.AncientingotItem;
 import net.mcreator.levelup.item.AmetystshovelItem;
+import net.mcreator.levelup.item.AmetyhoeItem;
 import net.mcreator.levelup.item.AmetistaspadaItem;
 import net.mcreator.levelup.item.AmetistArmorItem;
 import net.mcreator.levelup.LevelUpMod;
@@ -67,6 +68,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> AMETIST_ARMOR_LEGGINGS = REGISTRY.register("ametist_armor_leggings", () -> new AmetistArmorItem.Leggings());
 	public static final RegistryObject<Item> AMETIST_ARMOR_BOOTS = REGISTRY.register("ametist_armor_boots", () -> new AmetistArmorItem.Boots());
 	public static final RegistryObject<Item> ANCIENTSWORD = REGISTRY.register("ancientsword", () -> new AncientswordItem());
+	public static final RegistryObject<Item> AMETYHOE = REGISTRY.register("ametyhoe", () -> new AmetyhoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

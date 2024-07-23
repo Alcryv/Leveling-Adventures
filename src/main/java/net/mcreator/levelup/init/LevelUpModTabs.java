@@ -60,6 +60,7 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModItems.PICCONEAMETISTA.get());
 			tabData.accept(LevelUpModItems.AMETYSTSHOVEL.get());
 			tabData.accept(LevelUpModItems.AXEAMETIST.get());
+			tabData.accept(LevelUpModItems.AMETYHOE.get());
 		}
 	}
 }

@@ -259,7 +259,7 @@
       "name": "AntimatterFurnace",
       "type": "block",
       "sortid": 27,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatter_furnace",
       "metadata": {
@@ -397,7 +397,7 @@
       "name": "Littlepatootie",
       "type": "animatedentity",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "littlepatootie",
       "metadata": {
@@ -414,7 +414,7 @@
       "name": "AntimatterFurnaceGUI",
       "type": "gui",
       "sortid": 28,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "antimatter_furnace_gui",
       "metadata": {
@@ -468,7 +468,7 @@
       "name": "Ancientoreblock",
       "type": "block",
       "sortid": 30,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ancientoreblock",
       "metadata": {
@@ -672,6 +672,20 @@
           "src/main/resources/assets/level_up/models/item/ancientsword.json"
         ]
       }
+    },
+    {
+      "name": "Ametyhoe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametyhoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AmetyhoeItem.java",
+          "src/main/resources/assets/level_up/models/item/ametyhoe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -697,6 +711,7 @@
       "block.level_up.antimatteroreblock": "Antimatteroreblock",
       "item.level_up.xpshovel": "Xpshovel",
       "item.level_up.xpzappa": "Xpzappa",
+      "item.level_up.ametyhoe": "Ametyhoe",
       "item.level_up.antimattersword": "Antimatter sword",
       "item.level_up.axeametist": "Axeametist",
       "item.level_up.ametystshovel": "Ametystshovel",
