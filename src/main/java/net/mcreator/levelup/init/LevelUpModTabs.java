@@ -35,12 +35,16 @@ public class LevelUpModTabs {
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_CHESTPLATE.get());
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_LEGGINGS.get());
 				tabData.accept(LevelUpModItems.ANTIMATTERHELMET_BOOTS.get());
-				tabData.accept(LevelUpModItems.LITTLEPATOOTIE_SPAWN_EGG.get());
 				tabData.accept(LevelUpModItems.ANCIENTRAWORE.get());
 				tabData.accept(LevelUpModBlocks.ANTIMATTER_FURNACE.get().asItem());
 				tabData.accept(LevelUpModBlocks.ANCIENTOREBLOCK.get().asItem());
 				tabData.accept(LevelUpModItems.ANCIENTINGOT.get());
 				tabData.accept(LevelUpModItems.ANCIENTPICKAXE.get());
+				tabData.accept(LevelUpModItems.ANCIENTSWORD.get());
+				tabData.accept(LevelUpModItems.AMETIST_ARMOR_HELMET.get());
+				tabData.accept(LevelUpModItems.AMETIST_ARMOR_CHESTPLATE.get());
+				tabData.accept(LevelUpModItems.AMETIST_ARMOR_LEGGINGS.get());
+				tabData.accept(LevelUpModItems.AMETIST_ARMOR_BOOTS.get());
 			})
 
 					.build());
@@ -52,6 +56,11 @@ public class LevelUpModTabs {
 			tabData.accept(LevelUpModItems.XPSHOVEL.get());
 			tabData.accept(LevelUpModItems.XPZAPPA.get());
 			tabData.accept(LevelUpModItems.XPAXE.get());
+			tabData.accept(LevelUpModItems.AMETISTASPADA.get());
+			tabData.accept(LevelUpModItems.PICCONEAMETISTA.get());
+			tabData.accept(LevelUpModItems.AMETYSTSHOVEL.get());
+			tabData.accept(LevelUpModItems.AXEAMETIST.get());
+			tabData.accept(LevelUpModItems.AMETYHOE.get());
 		}
 	}
 }

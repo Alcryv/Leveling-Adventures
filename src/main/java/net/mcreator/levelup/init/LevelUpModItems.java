@@ -7,7 +7,6 @@ package net.mcreator.levelup.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -18,6 +17,8 @@ import net.mcreator.levelup.item.XpshovelItem;
 import net.mcreator.levelup.item.XppicaxeItem;
 import net.mcreator.levelup.item.XpaxeItem;
 import net.mcreator.levelup.item.SwordofxpItem;
+import net.mcreator.levelup.item.PicconeametistaItem;
+import net.mcreator.levelup.item.AxeametistItem;
 import net.mcreator.levelup.item.AntimatterswordItem;
 import net.mcreator.levelup.item.AntimattershovelItem;
 import net.mcreator.levelup.item.AntimatterpickaxeItem;
@@ -25,9 +26,14 @@ import net.mcreator.levelup.item.AntimatteroreItem;
 import net.mcreator.levelup.item.AntimatteringotItem;
 import net.mcreator.levelup.item.AntimatterhelmetItem;
 import net.mcreator.levelup.item.AntimatteraxeItem;
+import net.mcreator.levelup.item.AncientswordItem;
 import net.mcreator.levelup.item.AncientraworeItem;
 import net.mcreator.levelup.item.AncientpickaxeItem;
 import net.mcreator.levelup.item.AncientingotItem;
+import net.mcreator.levelup.item.AmetystshovelItem;
+import net.mcreator.levelup.item.AmetyhoeItem;
+import net.mcreator.levelup.item.AmetistaspadaItem;
+import net.mcreator.levelup.item.AmetistArmorItem;
 import net.mcreator.levelup.LevelUpMod;
 
 public class LevelUpModItems {
@@ -48,12 +54,21 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANCIENTINGOT = REGISTRY.register("ancientingot", () -> new AncientingotItem());
 	public static final RegistryObject<Item> ANCIENTPICKAXE = REGISTRY.register("ancientpickaxe", () -> new AncientpickaxeItem());
 	public static final RegistryObject<Item> ANTIMATTERPICKAXE = REGISTRY.register("antimatterpickaxe", () -> new AntimatterpickaxeItem());
-	public static final RegistryObject<Item> LITTLEPATOOTIE_SPAWN_EGG = REGISTRY.register("littlepatootie_spawn_egg", () -> new ForgeSpawnEggItem(LevelUpModEntities.LITTLEPATOOTIE, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> ANTIMATTERAXE = REGISTRY.register("antimatteraxe", () -> new AntimatteraxeItem());
 	public static final RegistryObject<Item> ANCIENTOREBLOCK = block(LevelUpModBlocks.ANCIENTOREBLOCK);
 	public static final RegistryObject<Item> XPSHOVEL = REGISTRY.register("xpshovel", () -> new XpshovelItem());
 	public static final RegistryObject<Item> XPZAPPA = REGISTRY.register("xpzappa", () -> new XpzappaItem());
 	public static final RegistryObject<Item> XPAXE = REGISTRY.register("xpaxe", () -> new XpaxeItem());
+	public static final RegistryObject<Item> AXEAMETIST = REGISTRY.register("axeametist", () -> new AxeametistItem());
+	public static final RegistryObject<Item> AMETYSTSHOVEL = REGISTRY.register("ametystshovel", () -> new AmetystshovelItem());
+	public static final RegistryObject<Item> AMETYHOE = REGISTRY.register("ametyhoe", () -> new AmetyhoeItem());
+	public static final RegistryObject<Item> PICCONEAMETISTA = REGISTRY.register("picconeametista", () -> new PicconeametistaItem());
+	public static final RegistryObject<Item> AMETIST_ARMOR_HELMET = REGISTRY.register("ametist_armor_helmet", () -> new AmetistArmorItem.Helmet());
+	public static final RegistryObject<Item> AMETIST_ARMOR_CHESTPLATE = REGISTRY.register("ametist_armor_chestplate", () -> new AmetistArmorItem.Chestplate());
+	public static final RegistryObject<Item> AMETIST_ARMOR_LEGGINGS = REGISTRY.register("ametist_armor_leggings", () -> new AmetistArmorItem.Leggings());
+	public static final RegistryObject<Item> AMETIST_ARMOR_BOOTS = REGISTRY.register("ametist_armor_boots", () -> new AmetistArmorItem.Boots());
+	public static final RegistryObject<Item> AMETISTASPADA = REGISTRY.register("ametistaspada", () -> new AmetistaspadaItem());
+	public static final RegistryObject<Item> ANCIENTSWORD = REGISTRY.register("ancientsword", () -> new AncientswordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

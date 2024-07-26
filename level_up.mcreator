@@ -504,8 +504,8 @@
       "registry_name": "xpshovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/XpshovelItem.java",
-          "src/main/resources/assets/level_up/models/item/xpshovel.json"
+          "src/main/resources/assets/level_up/models/item/xpshovel.json",
+          "src/main/java/net/mcreator/levelup/item/XpshovelItem.java"
         ]
       }
     },
@@ -532,8 +532,161 @@
       "registry_name": "xpaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/xpaxe.json",
-          "src/main/java/net/mcreator/levelup/item/XpaxeItem.java"
+          "src/main/java/net/mcreator/levelup/item/XpaxeItem.java",
+          "src/main/resources/assets/level_up/models/item/xpaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Axeametist",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axeametist",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/axeametist.json",
+          "src/main/java/net/mcreator/levelup/item/AxeametistItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ametisthelmet",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametisthelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ametisthelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Ametystshovel",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametystshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ametystshovel.json",
+          "src/main/java/net/mcreator/levelup/item/AmetystshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ametyhoe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametyhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ametyhoe.json",
+          "src/main/java/net/mcreator/levelup/item/AmetyhoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Picconeametista",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "picconeametista",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/picconeametista.json",
+          "src/main/java/net/mcreator/levelup/item/PicconeametistaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Irlydontknowbro",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irlydontknowbro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/irlydontknowbro.json"
+        ]
+      }
+    },
+    {
+      "name": "AmetistArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametist_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ametist_armor_leggings.json",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_chestplate.json",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_helmet.json",
+          "src/main/java/net/mcreator/levelup/item/AmetistArmorItem.java",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Ametistaspada",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametistaspada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AmetistaspadaItem.java",
+          "src/main/resources/assets/level_up/models/item/ametistaspada.json"
+        ]
+      }
+    },
+    {
+      "name": "Irlydontknowbro2ahhahahahahahah",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irlydontknowbro_2ahhahahahahahah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/irlydontknowbro_2ahhahahahahahah.json"
+        ]
+      }
+    },
+    {
+      "name": "Alcryvisstoopidlikepootis",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcryvisstoopidlikepootis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/alcryvisstoopidlikepootis.json"
+        ]
+      }
+    },
+    {
+      "name": "Ancientsword",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AncientswordItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientsword.json"
         ]
       }
     }
@@ -555,10 +708,10 @@
       "item.level_up.antimattershovel": "Antimatter shovel",
       "item.level_up.swordofxp": "Swordofxp",
       "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
-      "item.level_up.ancientingot": "Ancient ingot",
       "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
-      "item_group.level_up.level_up": "Level Up!",
+      "item.level_up.ancientingot": "Ancient ingot",
       "item.level_up.ancientrawore": "Ancientrawore",
+      "item_group.level_up.level_up": "Level Up!",
       "entity.level_up.littlepatootie": "Littlepatootie",
       "advancements.antimatteroreadvancement.title": "First of many",
       "gui.level_up.antimatter_furnace_gui.label_antimatter_furnace": "Antimatter Furnace",
@@ -597,11 +750,8 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "geckolib"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.levelup"
   },
   "mcreatorVersion": 202400118518
