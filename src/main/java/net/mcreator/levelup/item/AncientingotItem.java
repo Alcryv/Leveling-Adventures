@@ -1,7 +1,8 @@
 
 package net.mcreator.levelup.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
 
 public class AncientingotItem extends Item {
 	public AncientingotItem() {

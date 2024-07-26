@@ -7,6 +7,7 @@ package net.mcreator.levelup.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -47,6 +48,7 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> ANCIENTINGOT = REGISTRY.register("ancientingot", () -> new AncientingotItem());
 	public static final RegistryObject<Item> ANCIENTPICKAXE = REGISTRY.register("ancientpickaxe", () -> new AncientpickaxeItem());
 	public static final RegistryObject<Item> ANTIMATTERPICKAXE = REGISTRY.register("antimatterpickaxe", () -> new AntimatterpickaxeItem());
+	public static final RegistryObject<Item> LITTLEPATOOTIE_SPAWN_EGG = REGISTRY.register("littlepatootie_spawn_egg", () -> new ForgeSpawnEggItem(LevelUpModEntities.LITTLEPATOOTIE, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> ANTIMATTERAXE = REGISTRY.register("antimatteraxe", () -> new AntimatteraxeItem());
 	public static final RegistryObject<Item> ANCIENTOREBLOCK = block(LevelUpModBlocks.ANCIENTOREBLOCK);
 	public static final RegistryObject<Item> XPSHOVEL = REGISTRY.register("xpshovel", () -> new XpshovelItem());

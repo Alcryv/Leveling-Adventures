@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "level_up:deleted_mod_element"
+      "item": "level_up:antimatter_furnace"
     },
     "title": {
       "translate": "advancements.antimatter_furnace_advancement.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "level_up:deleted_mod_element"
+              "level_up:antimatter_furnace"
             ],
             "count": {
               "min": 1,
@@ -35,5 +35,5 @@
   "rewards": {
     "experience": 5
   },
-  "parent": "level_up:deleted_mod_element"
+  "parent": "level_up:antimatteroreadvancement"
 }
