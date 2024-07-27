@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "level_up:item/axe_amety"
+    "layer0": "level_up:item/amety_axe"
   }
 }

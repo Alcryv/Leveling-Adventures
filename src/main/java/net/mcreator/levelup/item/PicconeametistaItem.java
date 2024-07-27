@@ -10,23 +10,23 @@ public class PicconeametistaItem extends PickaxeItem {
 	public PicconeametistaItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 10000;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return -0.2f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 4;
 			}
 
 			public Ingredient getRepairIngredient() {
