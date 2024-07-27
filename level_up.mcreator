@@ -23,8 +23,8 @@
       "registry_name": "antimatterore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/antimatterore.json",
-          "src/main/java/net/mcreator/levelup/item/AntimatteroreItem.java"
+          "src/main/java/net/mcreator/levelup/item/AntimatteroreItem.java",
+          "src/main/resources/assets/level_up/models/item/antimatterore.json"
         ]
       }
     },
@@ -90,11 +90,14 @@
       "registry_name": "antimatteroreblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
-          "src/main/resources/assets/level_up/models/block/antimatteroreblock.json",
-          "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
+          "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json",
           "src/main/java/net/mcreator/levelup/block/AntimatteroreblockBlock.java",
-          "src/main/resources/data/level_up/loot_tables/blocks/antimatteroreblock.json"
+          "src/main/resources/assets/level_up/models/item/antimatteroreblock.json",
+          "src/main/resources/assets/level_up/blockstates/antimatteroreblock.json",
+          "src/main/resources/data/level_up/worldgen/placed_feature/antimatteroreblock.json",
+          "src/main/resources/data/level_up/worldgen/configured_feature/antimatteroreblock.json",
+          "src/main/resources/data/level_up/forge/biome_modifier/antimatteroreblock_biome_modifier.json",
+          "src/main/resources/assets/level_up/models/block/antimatteroreblock.json"
         ]
       }
     },
@@ -121,8 +124,8 @@
       "registry_name": "xppicaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/XppicaxeItem.java",
-          "src/main/resources/assets/level_up/models/item/xppicaxe.json"
+          "src/main/resources/assets/level_up/models/item/xppicaxe.json",
+          "src/main/java/net/mcreator/levelup/item/XppicaxeItem.java"
         ]
       }
     },
@@ -193,8 +196,8 @@
       "registry_name": "ancientrawore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/item/ancientrawore.json",
-          "src/main/java/net/mcreator/levelup/item/AncientraworeItem.java"
+          "src/main/java/net/mcreator/levelup/item/AncientraworeItem.java",
+          "src/main/resources/assets/level_up/models/item/ancientrawore.json"
         ]
       }
     },
@@ -207,11 +210,11 @@
       "registry_name": "antimatterhelmet",
       "metadata": {
         "files": [
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json",
           "src/main/java/net/mcreator/levelup/item/AntimatterhelmetItem.java",
-          "src/main/resources/assets/level_up/models/item/antimatterhelmet_chestplate.json",
-          "src/main/resources/assets/level_up/models/item/antimatterhelmet_boots.json",
           "src/main/resources/assets/level_up/models/item/antimatterhelmet_helmet.json",
-          "src/main/resources/assets/level_up/models/item/antimatterhelmet_leggings.json"
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_chestplate.json",
+          "src/main/resources/assets/level_up/models/item/antimatterhelmet_boots.json"
         ]
       }
     },
@@ -264,12 +267,12 @@
       "registry_name": "antimatter_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/blockstates/antimatter_furnace.json",
-          "src/main/resources/assets/level_up/models/item/antimatter_furnace.json",
+          "src/main/resources/assets/level_up/models/block/antimatter_furnace.json",
           "src/main/java/net/mcreator/levelup/block/AntimatterFurnaceBlock.java",
+          "src/main/resources/assets/level_up/models/item/antimatter_furnace.json",
+          "src/main/resources/assets/level_up/blockstates/antimatter_furnace.json",
           "src/main/resources/data/level_up/loot_tables/blocks/antimatter_furnace.json",
-          "src/main/java/net/mcreator/levelup/block/entity/AntimatterFurnaceBlockEntity.java",
-          "src/main/resources/assets/level_up/models/block/antimatter_furnace.json"
+          "src/main/java/net/mcreator/levelup/block/entity/AntimatterFurnaceBlockEntity.java"
         ]
       }
     },
@@ -348,8 +351,8 @@
       "registry_name": "ancientpickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/AncientpickaxeItem.java",
-          "src/main/resources/assets/level_up/models/item/ancientpickaxe.json"
+          "src/main/resources/assets/level_up/models/item/ancientpickaxe.json",
+          "src/main/java/net/mcreator/levelup/item/AncientpickaxeItem.java"
         ]
       }
     },
@@ -419,8 +422,8 @@
       "registry_name": "antimatter_furnace_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/client/gui/AntimatterFurnaceGUIScreen.java",
-          "src/main/java/net/mcreator/levelup/world/inventory/AntimatterFurnaceGUIMenu.java"
+          "src/main/java/net/mcreator/levelup/world/inventory/AntimatterFurnaceGUIMenu.java",
+          "src/main/java/net/mcreator/levelup/client/gui/AntimatterFurnaceGUIScreen.java"
         ]
       }
     },
@@ -473,11 +476,11 @@
       "registry_name": "ancientoreblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/level_up/models/block/ancientoreblock.json",
-          "src/main/java/net/mcreator/levelup/block/AncientoreblockBlock.java",
-          "src/main/resources/data/level_up/loot_tables/blocks/ancientoreblock.json",
           "src/main/resources/assets/level_up/blockstates/ancientoreblock.json",
-          "src/main/resources/assets/level_up/models/item/ancientoreblock.json"
+          "src/main/resources/assets/level_up/models/block/ancientoreblock.json",
+          "src/main/resources/assets/level_up/models/item/ancientoreblock.json",
+          "src/main/resources/data/level_up/loot_tables/blocks/ancientoreblock.json",
+          "src/main/java/net/mcreator/levelup/block/AncientoreblockBlock.java"
         ]
       }
     },
@@ -549,6 +552,19 @@
       }
     },
     {
+      "name": "Ametisthelmet",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametisthelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/level_up/recipes/ametisthelmet.json"
+        ]
+      }
+    },
+    {
       "name": "Ametystshovel",
       "type": "tool",
       "sortid": 40,
@@ -557,8 +573,22 @@
       "registry_name": "ametystshovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelup/item/AmetystshovelItem.java",
-          "src/main/resources/assets/level_up/models/item/ametystshovel.json"
+          "src/main/resources/assets/level_up/models/item/ametystshovel.json",
+          "src/main/java/net/mcreator/levelup/item/AmetystshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ametyhoe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametyhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/level_up/models/item/ametyhoe.json",
+          "src/main/java/net/mcreator/levelup/item/AmetyhoeItem.java"
         ]
       }
     },
@@ -573,33 +603,6 @@
         "files": [
           "src/main/resources/assets/level_up/models/item/picconeametista.json",
           "src/main/java/net/mcreator/levelup/item/PicconeametistaItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Ametistaspada",
-      "type": "tool",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ametistaspada",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/AmetistaspadaItem.java",
-          "src/main/resources/assets/level_up/models/item/ametistaspada.json"
-        ]
-      }
-    },
-    {
-      "name": "Ametisthelmet",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ametisthelmet",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/level_up/recipes/ametisthelmet.json"
         ]
       }
     },
@@ -628,8 +631,22 @@
           "src/main/resources/assets/level_up/models/item/ametist_armor_leggings.json",
           "src/main/resources/assets/level_up/models/item/ametist_armor_chestplate.json",
           "src/main/resources/assets/level_up/models/item/ametist_armor_helmet.json",
-          "src/main/resources/assets/level_up/models/item/ametist_armor_boots.json",
-          "src/main/java/net/mcreator/levelup/item/AmetistArmorItem.java"
+          "src/main/java/net/mcreator/levelup/item/AmetistArmorItem.java",
+          "src/main/resources/assets/level_up/models/item/ametist_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Ametistaspada",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametistaspada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelup/item/AmetistaspadaItem.java",
+          "src/main/resources/assets/level_up/models/item/ametistaspada.json"
         ]
       }
     },
@@ -672,51 +689,50 @@
           "src/main/resources/assets/level_up/models/item/ancientsword.json"
         ]
       }
-    },
-    {
-      "name": "Ametyhoe",
-      "type": "tool",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ametyhoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelup/item/AmetyhoeItem.java",
-          "src/main/resources/assets/level_up/models/item/ametyhoe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:AntimatterFurnace",
+    "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:Antimatteroreblock"
     ],
-    "BLOCKS:minecraft:needs_stone_tool": [
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AntimatterFurnace",
       "~CUSTOM:Antimatteroreblock"
     ]
   },
   "language_map": {
     "en_us": {
-      "item.level_up.antimatterore": "Antimatterore",
-      "item.level_up.xpaxe": "Xpaxe",
+      "advancements.antimatter_furnace_advancement.title": "Furnace...?",
+      "item.level_up.antimattershovel": "Antimatter shovel",
       "item.level_up.swordofxp": "Swordofxp",
-      "item.level_up.picconeametista": "Picconeametista",
-      "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
-      "gui.level_up.antimatter_furnace_gui.label_antimatter_furnace": "Antimatter Furnace",
+      "item.level_up.antimatterhelmet_leggings": "Antimatter Leggings",
+      "advancements.antimatteroreadvancement.descr": "obtain 1 antimatter ore",
+      "item.level_up.ancientingot": "Ancient ingot",
+      "item.level_up.ancientrawore": "Ancientrawore",
+      "item_group.level_up.level_up": "Level Up!",
       "entity.level_up.littlepatootie": "Littlepatootie",
-      "block.level_up.antimatteroreblock": "Antimatteroreblock",
+      "advancements.antimatteroreadvancement.title": "First of many",
+      "gui.level_up.antimatter_furnace_gui.label_antimatter_furnace": "Antimatter Furnace",
+      "block.level_up.antimatteroreblock": "Antimatter ore block",
       "item.level_up.xpshovel": "Xpshovel",
       "item.level_up.xpzappa": "Xpzappa",
-      "item.level_up.ametyhoe": "Ametyhoe",
+      "item.level_up.antimatteraxe": "Antimatter axe",
       "item.level_up.antimattersword": "Antimatter sword",
-      "item.level_up.axeametist": "Axeametist",
-      "item.level_up.ametystshovel": "Ametystshovel",
-      "item.level_up.antimatteringot": "Antimatteringot",
-      "item.level_up.ametistaspada": "Ametistaspada"
+      "item.level_up.antimatteringot": "Antimatter ingot",
+      "item.level_up.antimatterhelmet_boots": "Antimatter  Boots",
+      "item.level_up.antimatterore": "Antimatter ore",
+      "item.level_up.xpaxe": "Xpaxe",
+      "block.level_up.antimatter_furnace": "Antimatter Armor Recycling Furnace",
+      "item.level_up.littlepatootie_spawn_egg": "Littlepatootie Spawn Egg",
+      "item.level_up.antimatterpickaxe": "Antimatter pickaxe",
+      "item.level_up.antimatterhelmet_chestplate": "Antimatter Chestplate",
+      "advancements.antimatter_furnace_advancement.descr": "You Made The Antimatter Furnace. Why tho?",
+      "item.level_up.xppicaxe": "Xppicaxe",
+      "block.level_up.ancientoreblock": "Ancientoreblock",
+      "item.level_up.antimatterhelmet_helmet": "Antimatter Helmet",
+      "item.level_up.ancientpickaxe": "Ancient pickaxe"
     }
   },
   "foldersRoot": {

@@ -61,14 +61,14 @@ public class LevelUpModItems {
 	public static final RegistryObject<Item> XPAXE = REGISTRY.register("xpaxe", () -> new XpaxeItem());
 	public static final RegistryObject<Item> AXEAMETIST = REGISTRY.register("axeametist", () -> new AxeametistItem());
 	public static final RegistryObject<Item> AMETYSTSHOVEL = REGISTRY.register("ametystshovel", () -> new AmetystshovelItem());
+	public static final RegistryObject<Item> AMETYHOE = REGISTRY.register("ametyhoe", () -> new AmetyhoeItem());
 	public static final RegistryObject<Item> PICCONEAMETISTA = REGISTRY.register("picconeametista", () -> new PicconeametistaItem());
-	public static final RegistryObject<Item> AMETISTASPADA = REGISTRY.register("ametistaspada", () -> new AmetistaspadaItem());
 	public static final RegistryObject<Item> AMETIST_ARMOR_HELMET = REGISTRY.register("ametist_armor_helmet", () -> new AmetistArmorItem.Helmet());
 	public static final RegistryObject<Item> AMETIST_ARMOR_CHESTPLATE = REGISTRY.register("ametist_armor_chestplate", () -> new AmetistArmorItem.Chestplate());
 	public static final RegistryObject<Item> AMETIST_ARMOR_LEGGINGS = REGISTRY.register("ametist_armor_leggings", () -> new AmetistArmorItem.Leggings());
 	public static final RegistryObject<Item> AMETIST_ARMOR_BOOTS = REGISTRY.register("ametist_armor_boots", () -> new AmetistArmorItem.Boots());
+	public static final RegistryObject<Item> AMETISTASPADA = REGISTRY.register("ametistaspada", () -> new AmetistaspadaItem());
 	public static final RegistryObject<Item> ANCIENTSWORD = REGISTRY.register("ancientsword", () -> new AncientswordItem());
-	public static final RegistryObject<Item> AMETYHOE = REGISTRY.register("ametyhoe", () -> new AmetyhoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
